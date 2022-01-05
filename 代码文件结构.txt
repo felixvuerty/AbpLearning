@@ -1,0 +1,4925 @@
+E:.
+├─.github
+│  ├─ISSUE_TEMPLATES
+│  └─workflows
+├─abp_io
+│  └─AbpIoLocalization
+│      └─AbpIoLocalization
+│          ├─Account
+│          │  └─Localization
+│          │      └─Resources
+│          ├─Admin
+│          │  └─Localization
+│          │      └─Resources
+│          ├─Base
+│          │  └─Localization
+│          │      └─Resources
+│          ├─Blog
+│          │  └─Localization
+│          │      └─Resources
+│          ├─Commercial
+│          │  └─Localization
+│          │      └─Resources
+│          ├─Community
+│          │  └─Localization
+│          │      └─Resources
+│          ├─Docs
+│          │  └─Localization
+│          │      └─Resources
+│          ├─Support
+│          │  └─Localization
+│          │      └─Resources
+│          └─Www
+│              └─Localization
+│                  └─Resources
+├─apiSpec
+├─build
+├─deploy
+├─docs
+│  ├─cs
+│  │  ├─AspNetCore
+│  │  ├─Best-Practices
+│  │  │  └─images
+│  │  ├─Contribution
+│  │  └─images
+│  ├─en
+│  │  ├─.vscode
+│  │  ├─API
+│  │  ├─Apps
+│  │  ├─AspNetCore
+│  │  │  └─Tag-Helpers
+│  │  ├─Authentication
+│  │  ├─Best-Practices
+│  │  │  └─images
+│  │  ├─Blog-Posts
+│  │  │  ├─2018-09-24-Announcement
+│  │  │  ├─2019-02-22
+│  │  │  ├─2019-06-19 v0_18_Release
+│  │  │  ├─2019-08-16 v0_19_Release
+│  │  │  ├─2019-09-25 v0_21_Release
+│  │  │  ├─2019-10-22 v1_0_Release
+│  │  │  ├─2020-01-15 v2_0_Release
+│  │  │  ├─2020-03-19 v2_3_Release
+│  │  │  ├─2020-05-08 v2_7_Release
+│  │  │  ├─2020-05-22 v2_8_Release
+│  │  │  ├─2020-06-05 v2_9_Release
+│  │  │  ├─2020-07-01 v3_0_Release
+│  │  │  ├─2020-08-20 v3_1_Release
+│  │  │  ├─2020-09-03 v3_1_Release_Stable
+│  │  │  ├─2020-09-07 Angular-Service-Proxies
+│  │  │  ├─2020-09-17 v3_2_Preview
+│  │  │  ├─2020-10-01 v3_2_Release_Stable
+│  │  │  ├─2020-10-15 v3_3_Preview
+│  │  │  ├─2020-10-27 v3_3_Release_Stable
+│  │  │  ├─2020-11-12 v4_0_Preview
+│  │  │  ├─2020-12-04 v4_0_Release_Stable
+│  │  │  ├─2020-12-18 v4_1_Preview
+│  │  │  ├─2021-01-07 v4_1_Release_Stable
+│  │  │  ├─2021-01-14 v4_2_Preview
+│  │  │  ├─2021-01-28 v4_2_Release_Stable
+│  │  │  ├─2021-03-31 v4_3 Commercial Preview
+│  │  │  ├─2021-03-31 v4_3 Preview
+│  │  │  ├─2021-04-05 CmsKit
+│  │  │  ├─2021-04-26 v4_3_Release_Stable
+│  │  │  ├─2021-05-24-LeptonX
+│  │  │  ├─2021-06-28 v4_4 Preview
+│  │  │  ├─2021-07-08 Introducing_the_eShopOnAbp
+│  │  │  ├─2021-07-28-lepton-x-release
+│  │  │  ├─2021-08-02 v4_4_Release_Stable
+│  │  │  ├─2021-11-18 v5_0_Preview
+│  │  │  └─2021-12-15 v5_0_Release_Stable
+│  │  ├─Community-Articles
+│  │  │  ├─2020-04-19-Customize-the-SignIn-Manager
+│  │  │  ├─2020-04-27-Use-Azure-Active-Directory-Authentication-for-MVC-Razor-Page-Applications
+│  │  │  ├─2020-05-09-Customize-the-Login-Page-for-MVC-Razor-Page-Applications
+│  │  │  ├─2020-05-29-Real-Time-Messaging-In-A-Distributed-Architecture-Using-Abp-Framework-SingalR-RabbitMQ
+│  │  │  ├─2020-07-21-File-Upload-Download-With-BLOB-Storage-System-in-ASPNET-Core-ABP-Framework
+│  │  │  ├─2020-08-07-Passwordless-Authentication
+│  │  │  ├─2020-08-12-Patch-Chrome-Login-Issue-For-IdentityServer4
+│  │  │  ├─2020-08-18-Using-DevExtreme-Components-With-The-ABP-Framework
+│  │  │  ├─2020-08-31-Adding-User-Navigation-In-Suite
+│  │  │  ├─2020-09-09-Replacing-Email-Template-and-Sending-Emails
+│  │  │  ├─2020-09-16-How-to-Setup-Azure-Active-Directory-and-Integrate-Abp-Angular-Application
+│  │  │  ├─2020-09-28-Using-DevExtremeAngularComponents-With-The-ABP-Framework
+│  │  │  ├─2020-10-08-How-To-Add-Custom-Property-To-The-User-Entity
+│  │  │  ├─2020-11-02-How-To-Add-New-Language
+│  │  │  ├─2020-12-04-Event-Organizer
+│  │  │  │  └─images
+│  │  │  ├─2020-12-10-How-to-Integrate-the-DevExpress-Blazor-Component
+│  │  │  ├─2020-12-10-How-to-Integrate-the-Telerik-Blazor-Component
+│  │  │  ├─2020-12-11-Using-Angular-Material-Components-With-ABP-Framework
+│  │  │  ├─2021-01-20-How-to-Integrate-the-MatBlazor-Blazor-Component
+│  │  │  ├─2021-01-20-How-to-Use-PrimeNG-Components-with-the-ABP-Angular-UI
+│  │  │  ├─2021-03-12-Simple-SignalR-Notification
+│  │  │  ├─2021-04-22-How-to-Integrate-the-Syncfusion-Blazor-Component
+│  │  │  ├─2021-05-24-Removing-EfCore-Migrations
+│  │  │  ├─2021-06-17-Using-Elsa-Workflow-with-ABP-Framework
+│  │  │  ├─2021-09-25-How-to-Override-Localization-Strings-Of-Depending-Modules
+│  │  │  ├─2021-10-31-Many-to-Many-Relationship-with-ABP-and-EF-Core
+│  │  │  ├─2021-11-29-Integrating-DevExpress-Reporting-To-ABP-MVC-Application
+│  │  │  └─2021-12-13-Integrating-the-Syncfusion-MVC-Components-to-the-ABP-MVC-UI
+│  │  ├─Contribution
+│  │  ├─images
+│  │  ├─Migration-Guides
+│  │  │  └─images
+│  │  ├─Modules
+│  │  │  └─Cms-Kit
+│  │  ├─Samples
+│  │  │  └─eShopOnAbp
+│  │  ├─Startup-Templates
+│  │  ├─Themes
+│  │  ├─Tutorials
+│  │  │  ├─Angular
+│  │  │  ├─AspNetCore-Mvc
+│  │  │  ├─images
+│  │  │  └─Todo
+│  │  ├─UI
+│  │  │  ├─Angular
+│  │  │  │  └─images
+│  │  │  ├─AspNetCore
+│  │  │  │  ├─JavaScript-API
+│  │  │  │  └─Tag-Helpers
+│  │  │  ├─Blazor
+│  │  │  │  └─Components
+│  │  │  └─Common
+│  │  │      └─Utils
+│  │  └─_resources
+│  ├─es
+│  ├─pt-BR
+│  │  ├─Contribution
+│  │  ├─images
+│  │  ├─Startup-Templates
+│  │  └─Tutorials
+│  │      ├─Angular
+│  │      │  └─images
+│  │      └─AspNetCore-Mvc
+│  │          └─images
+│  └─zh-Hans
+│      ├─API
+│      │  └─JavaScript-API
+│      ├─Apps
+│      ├─AspNetCore
+│      │  ├─JavaScript-API
+│      │  └─Tag-Helpers
+│      ├─Authentication
+│      ├─Best-Practices
+│      │  └─images
+│      ├─Blog-Posts
+│      │  ├─2018-09-24-Announcement
+│      │  ├─2019-02-22
+│      │  ├─2019-06-19 v0_18_Release
+│      │  ├─2019-08-16 v0_19_Release
+│      │  ├─2019-09-25 v0_21_Release
+│      │  ├─2019-10-22 v1_0_Release
+│      │  ├─2020-01-15 v2_0_Release
+│      │  ├─2020-03-19 v2_3_Release
+│      │  ├─2020-05-08 v2_7_Release
+│      │  ├─2020-05-22 v2_8_Release
+│      │  ├─2020-06-05 v2_9_Release
+│      │  └─2020-07-01 v3_0_Release
+│      ├─Contribution
+│      ├─How-To
+│      ├─images
+│      ├─JavaScript
+│      ├─Modules
+│      ├─Samples
+│      ├─Startup-Templates
+│      ├─Tutorials
+│      │  ├─Angular
+│      │  ├─AspNetCore-Mvc
+│      │  ├─images
+│      │  └─Todo
+│      ├─UI
+│      │  ├─Angular
+│      │  │  └─images
+│      │  ├─AspNetCore
+│      │  │  ├─JavaScript-API
+│      │  │  ├─Libraries
+│      │  │  └─Tag-Helpers
+│      │  └─Common
+│      │      └─Utils
+│      └─_resources
+├─framework
+│  ├─src
+│  │  ├─Volo.Abp
+│  │  ├─Volo.Abp.ApiVersioning.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─ApiVersioning
+│  │  ├─Volo.Abp.AspNetCore
+│  │  │  ├─Microsoft
+│  │  │  │  ├─AspNetCore
+│  │  │  │  │  ├─Builder
+│  │  │  │  │  ├─Cors
+│  │  │  │  │  ├─Hosting
+│  │  │  │  │  ├─Http
+│  │  │  │  │  ├─RequestLocalization
+│  │  │  │  │  └─Routing
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              ├─Auditing
+│  │  │              ├─DependencyInjection
+│  │  │              ├─ExceptionHandling
+│  │  │              ├─Security
+│  │  │              │  └─Claims
+│  │  │              ├─SecurityLog
+│  │  │              ├─Threading
+│  │  │              ├─Tracing
+│  │  │              ├─Uow
+│  │  │              ├─VirtualFileSystem
+│  │  │              └─WebClientInfo
+│  │  ├─Volo.Abp.AspNetCore.Authentication.JwtBearer
+│  │  │  ├─Microsoft
+│  │  │  │  └─AspNetCore
+│  │  │  │      └─Builder
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Authentication
+│  │  │                  └─JwtBearer
+│  │  ├─Volo.Abp.AspNetCore.Authentication.OAuth
+│  │  │  ├─Microsoft
+│  │  │  │  └─AspNetCore
+│  │  │  │      └─Authentication
+│  │  │  │          └─OAuth
+│  │  │  │              └─Claims
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Authentication
+│  │  │                  └─OAuth
+│  │  │                      └─Claims
+│  │  ├─Volo.Abp.AspNetCore.Authentication.OpenIdConnect
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Authentication
+│  │  │                  └─OpenIdConnect
+│  │  ├─Volo.Abp.AspNetCore.Components
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Components
+│  │  │                  ├─Alerts
+│  │  │                  ├─DependencyInjection
+│  │  │                  ├─ExceptionHandling
+│  │  │                  ├─Messages
+│  │  │                  ├─Notifications
+│  │  │                  └─Progression
+│  │  ├─Volo.Abp.AspNetCore.Components.Server
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Components
+│  │  │                  └─Server
+│  │  │                      ├─Configuration
+│  │  │                      └─Extensibility
+│  │  ├─Volo.Abp.AspNetCore.Components.Server.Theming
+│  │  │  └─Bundling
+│  │  ├─Volo.Abp.AspNetCore.Components.Web
+│  │  │  ├─Volo
+│  │  │  │  └─Abp
+│  │  │  │      └─AspNetCore
+│  │  │  │          └─Components
+│  │  │  │              └─Web
+│  │  │  │                  ├─Alerts
+│  │  │  │                  ├─Configuration
+│  │  │  │                  ├─DependencyInjection
+│  │  │  │                  ├─ExceptionHandling
+│  │  │  │                  ├─Extensibility
+│  │  │  │                  │  ├─EntityActions
+│  │  │  │                  │  └─TableColumns
+│  │  │  │                  ├─Messages
+│  │  │  │                  └─Security
+│  │  │  └─wwwroot
+│  │  │      └─libs
+│  │  │          └─abp
+│  │  │              └─js
+│  │  ├─Volo.Abp.AspNetCore.Components.Web.Theming
+│  │  │  ├─Layout
+│  │  │  ├─PageToolbars
+│  │  │  ├─Routing
+│  │  │  └─Toolbars
+│  │  ├─Volo.Abp.AspNetCore.Components.WebAssembly
+│  │  │  ├─Microsoft
+│  │  │  │  ├─AspNetCore
+│  │  │  │  │  └─Components
+│  │  │  │  │      └─WebAssembly
+│  │  │  │  │          └─Hosting
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Components
+│  │  │                  └─WebAssembly
+│  │  │                      └─Extensibility
+│  │  ├─Volo.Abp.AspNetCore.Components.WebAssembly.Theming
+│  │  │  └─wwwroot
+│  │  │      └─libs
+│  │  │          ├─bootstrap
+│  │  │          │  └─css
+│  │  │          ├─flag-icon
+│  │  │          │  ├─css
+│  │  │          │  └─flags
+│  │  │          │      └─1x1
+│  │  │          └─fontawesome
+│  │  │              ├─css
+│  │  │              └─webfonts
+│  │  ├─Volo.Abp.AspNetCore.MultiTenancy
+│  │  │  ├─Microsoft
+│  │  │  │  └─AspNetCore
+│  │  │  │      └─Builder
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─AspNetCore
+│  │  │          │  └─MultiTenancy
+│  │  │          └─MultiTenancy
+│  │  ├─Volo.Abp.AspNetCore.Mvc
+│  │  │  ├─Microsoft
+│  │  │  │  ├─AspNetCore
+│  │  │  │  │  ├─Builder
+│  │  │  │  │  ├─Http
+│  │  │  │  │  └─Mvc
+│  │  │  │  │      ├─Abstractions
+│  │  │  │  │      └─ViewFeatures
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─AspNetCore
+│  │  │          │  └─Mvc
+│  │  │          │      ├─AntiForgery
+│  │  │          │      ├─ApiExploring
+│  │  │          │      ├─ApplicationConfigurations
+│  │  │          │      │  └─ObjectExtending
+│  │  │          │      ├─Auditing
+│  │  │          │      ├─Authentication
+│  │  │          │      ├─ContentFormatters
+│  │  │          │      ├─Conventions
+│  │  │          │      ├─DataAnnotations
+│  │  │          │      ├─DependencyInjection
+│  │  │          │      ├─ExceptionHandling
+│  │  │          │      ├─Features
+│  │  │          │      ├─GlobalFeatures
+│  │  │          │      ├─Json
+│  │  │          │      ├─Localization
+│  │  │          │      ├─ModelBinding
+│  │  │          │      │  └─Metadata
+│  │  │          │      ├─ProxyScripting
+│  │  │          │      ├─Response
+│  │  │          │      ├─Uow
+│  │  │          │      ├─Utils
+│  │  │          │      ├─Validation
+│  │  │          │      ├─Versioning
+│  │  │          │      └─ViewFeatures
+│  │  │          └─ObjectExtending
+│  │  ├─Volo.Abp.AspNetCore.Mvc.Client
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  └─Client
+│  │  ├─Volo.Abp.AspNetCore.Mvc.Client.Common
+│  │  │  ├─ClientProxies
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  └─Client
+│  │  ├─Volo.Abp.AspNetCore.Mvc.Contracts
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  ├─ApplicationConfigurations
+│  │  │                  │  └─ObjectExtending
+│  │  │                  └─MultiTenancy
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─AspNetCore
+│  │  │          │  └─Mvc
+│  │  │          │      └─UI
+│  │  │          │          ├─Alerts
+│  │  │          │          ├─Components
+│  │  │          │          │  └─LayoutHook
+│  │  │          │          ├─Layout
+│  │  │          │          ├─RazorPages
+│  │  │          │          └─Theming
+│  │  │          └─ObjectExtending
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Bootstrap
+│  │  │  ├─Microsoft
+│  │  │  │  └─AspNetCore
+│  │  │  │      └─Razor
+│  │  │  │          └─TagHelpers
+│  │  │  └─TagHelpers
+│  │  │      ├─Alert
+│  │  │      ├─Badge
+│  │  │      ├─Blockquote
+│  │  │      ├─Border
+│  │  │      ├─Breadcrumb
+│  │  │      ├─Button
+│  │  │      ├─Card
+│  │  │      ├─Carousel
+│  │  │      ├─Collapse
+│  │  │      ├─Dropdown
+│  │  │      ├─Extensions
+│  │  │      ├─Figure
+│  │  │      ├─Form
+│  │  │      ├─Grid
+│  │  │      ├─ListGroup
+│  │  │      ├─Modal
+│  │  │      ├─Nav
+│  │  │      ├─Pagination
+│  │  │      ├─Popover
+│  │  │      ├─ProgressBar
+│  │  │      ├─Tab
+│  │  │      ├─Table
+│  │  │      ├─Tooltip
+│  │  │      └─Utils
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Bundling
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  └─UI
+│  │  │                      ├─Bundling
+│  │  │                      │  ├─Scripts
+│  │  │                      │  ├─Styles
+│  │  │                      │  └─TagHelpers
+│  │  │                      └─Resources
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  └─UI
+│  │  │                      └─Bundling
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy
+│  │  │  ├─Pages
+│  │  │  │  └─Abp
+│  │  │  │      └─MultiTenancy
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  └─UI
+│  │  │                      └─MultiTenancy
+│  │  │                          └─Localization
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Packages
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  └─UI
+│  │  │                      └─Packages
+│  │  │                          ├─Anchor
+│  │  │                          ├─Bootstrap
+│  │  │                          ├─BootstrapDatepicker
+│  │  │                          ├─ChartJs
+│  │  │                          ├─Clipboard
+│  │  │                          ├─CmsKit
+│  │  │                          ├─Codemirror
+│  │  │                          ├─Core
+│  │  │                          ├─CropperJs
+│  │  │                          ├─DatatablesNet
+│  │  │                          ├─DatatablesNetBs4
+│  │  │                          ├─DatatablesNetBs5
+│  │  │                          ├─FlagIconCss
+│  │  │                          ├─FontAwesome
+│  │  │                          ├─HighlightJs
+│  │  │                          ├─JQuery
+│  │  │                          ├─JQueryForm
+│  │  │                          ├─JQueryValidation
+│  │  │                          ├─JQueryValidationUnobtrusive
+│  │  │                          ├─JsTree
+│  │  │                          ├─Lodash
+│  │  │                          ├─Luxon
+│  │  │                          ├─MalihuCustomScrollbar
+│  │  │                          ├─MarkdownIt
+│  │  │                          ├─OwlCarousel
+│  │  │                          ├─Popper
+│  │  │                          ├─Prismjs
+│  │  │                          ├─Select2
+│  │  │                          ├─SignalR
+│  │  │                          ├─Slugify
+│  │  │                          ├─StarRatingSvg
+│  │  │                          ├─SweetAlert2
+│  │  │                          ├─Timeago
+│  │  │                          ├─Toastr
+│  │  │                          ├─TuiEditor
+│  │  │                          ├─Uppy
+│  │  │                          ├─Utils
+│  │  │                          ├─VeeValidate
+│  │  │                          └─Vue
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared
+│  │  │  ├─Areas
+│  │  │  ├─Bundling
+│  │  │  ├─Controllers
+│  │  │  ├─Pages
+│  │  │  │  ├─Account
+│  │  │  │  └─Shared
+│  │  │  │      └─Components
+│  │  │  │          ├─AbpApplicationPath
+│  │  │  │          ├─AbpPageSearchBox
+│  │  │  │          └─AbpPageToolbar
+│  │  │  │              └─Button
+│  │  │  ├─PageToolbars
+│  │  │  ├─Toolbars
+│  │  │  ├─Views
+│  │  │  │  └─Error
+│  │  │  └─wwwroot
+│  │  │      └─libs
+│  │  │          └─abp
+│  │  │              └─aspnetcore-mvc-ui-theme-shared
+│  │  │                  ├─bootstrap
+│  │  │                  ├─datatables
+│  │  │                  ├─jquery
+│  │  │                  ├─jquery-form
+│  │  │                  ├─sweetalert2
+│  │  │                  └─toastr
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Demo
+│  │  │  └─Views
+│  │  │      └─Components
+│  │  │          └─Themes
+│  │  │              └─Shared
+│  │  │                  ├─Demos
+│  │  │                  │  ├─AlertsDemo
+│  │  │                  │  ├─BadgesDemo
+│  │  │                  │  ├─BordersDemo
+│  │  │                  │  ├─BreadcrumbsDemo
+│  │  │                  │  ├─ButtonGroupsDemo
+│  │  │                  │  ├─ButtonsDemo
+│  │  │                  │  ├─CardsDemo
+│  │  │                  │  ├─CarouselDemo
+│  │  │                  │  ├─CollapseDemo
+│  │  │                  │  ├─DropdownsDemo
+│  │  │                  │  ├─DynamicFormsDemo
+│  │  │                  │  ├─FormElementsDemo
+│  │  │                  │  ├─GridsDemo
+│  │  │                  │  ├─ListGroupsDemo
+│  │  │                  │  ├─ModalsDemo
+│  │  │                  │  ├─NavbarsDemo
+│  │  │                  │  ├─NavsDemo
+│  │  │                  │  ├─PaginatorDemo
+│  │  │                  │  ├─PopoversDemo
+│  │  │                  │  ├─ProgressBarsDemo
+│  │  │                  │  ├─TablesDemo
+│  │  │                  │  ├─TabsDemo
+│  │  │                  │  └─TooltipsDemo
+│  │  │                  └─TagHelpers
+│  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Widgets
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Mvc
+│  │  │                  └─UI
+│  │  │                      └─Widgets
+│  │  │                          └─Components
+│  │  │                              ├─WidgetScripts
+│  │  │                              └─WidgetStyles
+│  │  ├─Volo.Abp.AspNetCore.Serilog
+│  │  │  ├─Microsoft
+│  │  │  │  └─AspNetCore
+│  │  │  │      └─Builder
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─Serilog
+│  │  ├─Volo.Abp.AspNetCore.SignalR
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─SignalR
+│  │  │                  ├─Auditing
+│  │  │                  └─Authentication
+│  │  ├─Volo.Abp.AspNetCore.TestBase
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AspNetCore
+│  │  │              └─TestBase
+│  │  │                  └─DynamicProxying
+│  │  ├─Volo.Abp.Auditing
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Auditing
+│  │  ├─Volo.Abp.Auditing.Contracts
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Auditing
+│  │  ├─Volo.Abp.Authorization
+│  │  │  ├─Microsoft
+│  │  │  │  ├─AspNetCore
+│  │  │  │  │  └─Authorization
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Authorization
+│  │  │              ├─Localization
+│  │  │              └─Permissions
+│  │  ├─Volo.Abp.Authorization.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Authorization
+│  │  │              └─Permissions
+│  │  ├─Volo.Abp.Autofac
+│  │  │  ├─Autofac
+│  │  │  │  ├─Builder
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      ├─DependencyInjection
+│  │  │  │      └─Hosting
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Autofac
+│  │  ├─Volo.Abp.Autofac.WebAssembly
+│  │  │  ├─Microsoft
+│  │  │  │  └─AspNetCore
+│  │  │  │      └─Components
+│  │  │  │          └─WebAssembly
+│  │  │  │              └─Hosting
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Autofac
+│  │  │              └─WebAssembly
+│  │  ├─Volo.Abp.AutoMapper
+│  │  │  ├─AutoMapper
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─AutoMapper
+│  │  │          └─ObjectMapping
+│  │  ├─Volo.Abp.AzureServiceBus
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─AzureServiceBus
+│  │  ├─Volo.Abp.BackgroundJobs
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundJobs
+│  │  ├─Volo.Abp.BackgroundJobs.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundJobs
+│  │  ├─Volo.Abp.BackgroundJobs.HangFire
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundJobs
+│  │  │              └─Hangfire
+│  │  ├─Volo.Abp.BackgroundJobs.Quartz
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundJobs
+│  │  │              └─Quartz
+│  │  ├─Volo.Abp.BackgroundJobs.RabbitMQ
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundJobs
+│  │  │              └─RabbitMQ
+│  │  ├─Volo.Abp.BackgroundWorkers
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundWorkers
+│  │  ├─Volo.Abp.BackgroundWorkers.Hangfire
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundWorkers
+│  │  │              └─Hangfire
+│  │  ├─Volo.Abp.BackgroundWorkers.Quartz
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BackgroundWorkers
+│  │  │              └─Quartz
+│  │  ├─Volo.Abp.BlazoriseUI
+│  │  │  └─Components
+│  │  │      └─ObjectExtending
+│  │  ├─Volo.Abp.BlobStoring
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BlobStoring
+│  │  ├─Volo.Abp.BlobStoring.Aliyun
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BlobStoring
+│  │  │              └─Aliyun
+│  │  ├─Volo.Abp.BlobStoring.Aws
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BlobStoring
+│  │  │              └─Aws
+│  │  ├─Volo.Abp.BlobStoring.Azure
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BlobStoring
+│  │  │              └─Azure
+│  │  ├─Volo.Abp.BlobStoring.FileSystem
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BlobStoring
+│  │  │              └─FileSystem
+│  │  ├─Volo.Abp.BlobStoring.Minio
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─BlobStoring
+│  │  │              └─Minio
+│  │  ├─Volo.Abp.Caching
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Caching
+│  │  ├─Volo.Abp.Caching.StackExchangeRedis
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Caching
+│  │  │              └─StackExchangeRedis
+│  │  ├─Volo.Abp.Castle.Core
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Castle
+│  │  │              └─DynamicProxy
+│  │  ├─Volo.Abp.Cli
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Cli
+│  │  ├─Volo.Abp.Cli.Core
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Cli
+│  │  │              ├─Args
+│  │  │              ├─Auth
+│  │  │              ├─Build
+│  │  │              ├─Bundling
+│  │  │              │  ├─Scripts
+│  │  │              │  └─Styles
+│  │  │              ├─Commands
+│  │  │              │  └─Services
+│  │  │              ├─Configuration
+│  │  │              ├─Http
+│  │  │              ├─LIbs
+│  │  │              ├─Licensing
+│  │  │              ├─NuGet
+│  │  │              ├─ProjectBuilding
+│  │  │              │  ├─Analyticses
+│  │  │              │  ├─Building
+│  │  │              │  │  └─Steps
+│  │  │              │  ├─Files
+│  │  │              │  └─Templates
+│  │  │              │      ├─App
+│  │  │              │      ├─Console
+│  │  │              │      ├─Microservice
+│  │  │              │      ├─Module
+│  │  │              │      └─Wpf
+│  │  │              ├─ProjectModification
+│  │  │              ├─ServiceProxying
+│  │  │              │  ├─Angular
+│  │  │              │  ├─CSharp
+│  │  │              │  └─JavaScript
+│  │  │              └─Utils
+│  │  ├─Volo.Abp.Core
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      ├─Configuration
+│  │  │  │      ├─DependencyInjection
+│  │  │  │      ├─Hosting
+│  │  │  │      ├─Localization
+│  │  │  │      ├─Logging
+│  │  │  │      └─Options
+│  │  │  ├─Properties
+│  │  │  ├─System
+│  │  │  │  ├─Collections
+│  │  │  │  │  └─Generic
+│  │  │  │  ├─IO
+│  │  │  │  ├─Linq
+│  │  │  │  ├─Reflection
+│  │  │  │  ├─Runtime
+│  │  │  │  └─Text
+│  │  │  │      └─Json
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Aspects
+│  │  │          ├─Bundling
+│  │  │          ├─Collections
+│  │  │          ├─Content
+│  │  │          ├─DependencyInjection
+│  │  │          ├─DynamicProxy
+│  │  │          ├─ExceptionHandling
+│  │  │          ├─Internal
+│  │  │          ├─IO
+│  │  │          ├─Localization
+│  │  │          ├─Logging
+│  │  │          ├─Modularity
+│  │  │          │  └─PlugIns
+│  │  │          ├─Options
+│  │  │          ├─Reflection
+│  │  │          ├─SimpleStateChecking
+│  │  │          ├─Text
+│  │  │          │  └─Formatting
+│  │  │          ├─Threading
+│  │  │          ├─Tracing
+│  │  │          └─Validation
+│  │  ├─Volo.Abp.Dapper
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Dapper
+│  │  │          └─Domain
+│  │  │              └─Repositories
+│  │  │                  └─Dapper
+│  │  ├─Volo.Abp.Data
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Data
+│  │  │          └─Domain
+│  │  │              └─Entities
+│  │  ├─Volo.Abp.Ddd.Application
+│  │  │  ├─System
+│  │  │  │  └─Linq
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Application
+│  │  │              └─Services
+│  │  ├─Volo.Abp.Ddd.Application.Contracts
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Application
+│  │  │              ├─Dtos
+│  │  │              ├─Localization
+│  │  │              │  └─Resources
+│  │  │              │      └─AbpDdd
+│  │  │              └─Services
+│  │  ├─Volo.Abp.Ddd.Domain
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Auditing
+│  │  │          ├─DependencyInjection
+│  │  │          └─Domain
+│  │  │              ├─Entities
+│  │  │              │  ├─Auditing
+│  │  │              │  └─Events
+│  │  │              │      └─Distributed
+│  │  │              ├─Repositories
+│  │  │              ├─Services
+│  │  │              └─Values
+│  │  ├─Volo.Abp.DistributedLocking
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─DistributedLocking
+│  │  ├─Volo.Abp.DistributedLocking.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─DistributedLocking
+│  │  ├─Volo.Abp.Emailing
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Emailing
+│  │  │              ├─Localization
+│  │  │              ├─Smtp
+│  │  │              └─Templates
+│  │  ├─Volo.Abp.EntityFrameworkCore
+│  │  │  ├─Microsoft
+│  │  │  │  ├─EntityFrameworkCore
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Domain
+│  │  │          │  └─Repositories
+│  │  │          │      └─EntityFrameworkCore
+│  │  │          ├─EntityFrameworkCore
+│  │  │          │  ├─DependencyInjection
+│  │  │          │  ├─DistributedEvents
+│  │  │          │  ├─EntityHistory
+│  │  │          │  ├─Modeling
+│  │  │          │  ├─ValueComparers
+│  │  │          │  └─ValueConverters
+│  │  │          ├─ObjectExtending
+│  │  │          └─Uow
+│  │  │              └─EntityFrameworkCore
+│  │  ├─Volo.Abp.EntityFrameworkCore.MySQL
+│  │  │  ├─Microsoft
+│  │  │  │  └─EntityFrameworkCore
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EntityFrameworkCore
+│  │  │              ├─DistributedEvents
+│  │  │              └─MySQL
+│  │  ├─Volo.Abp.EntityFrameworkCore.Oracle
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EntityFrameworkCore
+│  │  │              ├─DistributedEvents
+│  │  │              └─Oracle
+│  │  ├─Volo.Abp.EntityFrameworkCore.Oracle.Devart
+│  │  │  ├─Microsoft
+│  │  │  │  └─EntityFrameworkCore
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EntityFrameworkCore
+│  │  │              ├─DistributedEvents
+│  │  │              └─Oracle
+│  │  │                  └─Devart
+│  │  ├─Volo.Abp.EntityFrameworkCore.PostgreSql
+│  │  │  ├─Microsoft
+│  │  │  │  └─EntityFrameworkCore
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EntityFrameworkCore
+│  │  │              ├─DistributedEvents
+│  │  │              └─PostgreSql
+│  │  ├─Volo.Abp.EntityFrameworkCore.Sqlite
+│  │  │  ├─Microsoft
+│  │  │  │  └─EntityFrameworkCore
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EntityFrameworkCore
+│  │  │              ├─DistributedEvents
+│  │  │              └─Sqlite
+│  │  ├─Volo.Abp.EntityFrameworkCore.SqlServer
+│  │  │  ├─Microsoft
+│  │  │  │  └─EntityFrameworkCore
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EntityFrameworkCore
+│  │  │              ├─DistributedEvents
+│  │  │              └─SqlServer
+│  │  ├─Volo.Abp.EventBus
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EventBus
+│  │  │              ├─Distributed
+│  │  │              └─Local
+│  │  ├─Volo.Abp.EventBus.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Domain
+│  │  │          │  └─Entities
+│  │  │          │      └─Events
+│  │  │          │          └─Distributed
+│  │  │          └─EventBus
+│  │  │              └─Abstractions
+│  │  ├─Volo.Abp.EventBus.Azure
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EventBus
+│  │  │              └─Azure
+│  │  ├─Volo.Abp.EventBus.Kafka
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EventBus
+│  │  │              └─Kafka
+│  │  ├─Volo.Abp.EventBus.RabbitMQ
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EventBus
+│  │  │              └─RabbitMq
+│  │  ├─Volo.Abp.EventBus.Rebus
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─EventBus
+│  │  │              └─Rebus
+│  │  ├─Volo.Abp.ExceptionHandling
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─AspNetCore
+│  │  │          │  └─ExceptionHandling
+│  │  │          ├─Domain
+│  │  │          │  └─Entities
+│  │  │          ├─ExceptionHandling
+│  │  │          │  └─Localization
+│  │  │          └─Http
+│  │  │              └─Client
+│  │  ├─Volo.Abp.Features
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Features
+│  │  │              └─Localization
+│  │  ├─Volo.Abp.FluentValidation
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─FluentValidation
+│  │  ├─Volo.Abp.GlobalFeatures
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─GlobalFeatures
+│  │  │              └─Localization
+│  │  ├─Volo.Abp.Guids
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Guids
+│  │  ├─Volo.Abp.HangFire
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Hangfire
+│  │  ├─Volo.Abp.Http
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Http
+│  │  │              ├─Modeling
+│  │  │              └─ProxyScripting
+│  │  │                  ├─Configuration
+│  │  │                  └─Generators
+│  │  │                      └─JQuery
+│  │  ├─Volo.Abp.Http.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Http
+│  │  │              └─Modeling
+│  │  ├─Volo.Abp.Http.Client
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Http
+│  │  │              └─Client
+│  │  │                  ├─Authentication
+│  │  │                  ├─ClientProxying
+│  │  │                  ├─DynamicProxying
+│  │  │                  └─Proxying
+│  │  ├─Volo.Abp.Http.Client.IdentityModel
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Http
+│  │  │              └─Client
+│  │  │                  └─IdentityModel
+│  │  ├─Volo.Abp.Http.Client.IdentityModel.Web
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Http
+│  │  │              └─Client
+│  │  │                  └─IdentityModel
+│  │  │                      └─Web
+│  │  ├─Volo.Abp.Http.Client.IdentityModel.WebAssembly
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Http
+│  │  │              └─Client
+│  │  │                  └─IdentityModel
+│  │  │                      └─WebAssembly
+│  │  ├─Volo.Abp.Http.Client.Web
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Http
+│  │  │              └─Client
+│  │  │                  └─Web
+│  │  │                      └─Conventions
+│  │  ├─Volo.Abp.IdentityModel
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─IdentityModel
+│  │  ├─Volo.Abp.Json
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Json
+│  │  │              ├─Newtonsoft
+│  │  │              └─SystemTextJson
+│  │  │                  └─JsonConverters
+│  │  ├─Volo.Abp.Kafka
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Kafka
+│  │  ├─Volo.Abp.Ldap
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Ldap
+│  │  │              └─Localization
+│  │  ├─Volo.Abp.Localization
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Localization
+│  │  │              ├─ExceptionHandling
+│  │  │              ├─Json
+│  │  │              ├─Resources
+│  │  │              │  └─AbpLocalization
+│  │  │              └─VirtualFiles
+│  │  │                  └─Json
+│  │  ├─Volo.Abp.Localization.Abstractions
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      └─Localization
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Localization
+│  │  ├─Volo.Abp.MailKit
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─MailKit
+│  │  ├─Volo.Abp.MemoryDb
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Domain
+│  │  │          │  └─Repositories
+│  │  │          │      └─MemoryDb
+│  │  │          ├─MemoryDb
+│  │  │          │  └─DependencyInjection
+│  │  │          └─Uow
+│  │  │              └─MemoryDb
+│  │  ├─Volo.Abp.Minify
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Minify
+│  │  │              ├─Html
+│  │  │              ├─NUglify
+│  │  │              ├─Scripts
+│  │  │              └─Styles
+│  │  ├─Volo.Abp.MongoDB
+│  │  │  ├─Microsoft
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Domain
+│  │  │          │  └─Repositories
+│  │  │          │      └─MongoDB
+│  │  │          ├─MongoDB
+│  │  │          │  ├─DependencyInjection
+│  │  │          │  └─DistributedEvents
+│  │  │          └─Uow
+│  │  │              └─MongoDB
+│  │  ├─Volo.Abp.MultiLingualObjects
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─MultiLingualObjects
+│  │  ├─Volo.Abp.MultiTenancy
+│  │  │  ├─System
+│  │  │  │  └─Security
+│  │  │  │      └─Principal
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─MultiTenancy
+│  │  │              └─ConfigurationStore
+│  │  ├─Volo.Abp.ObjectExtending
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Data
+│  │  │          └─ObjectExtending
+│  │  │              └─Modularity
+│  │  ├─Volo.Abp.ObjectMapping
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─ObjectMapping
+│  │  ├─Volo.Abp.Quartz
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Quartz
+│  │  ├─Volo.Abp.RabbitMQ
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─RabbitMQ
+│  │  ├─Volo.Abp.Security
+│  │  │  ├─System
+│  │  │  │  └─Security
+│  │  │  │      └─Principal
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Authorization
+│  │  │          ├─Clients
+│  │  │          ├─Security
+│  │  │          │  ├─Claims
+│  │  │          │  └─Encryption
+│  │  │          ├─SecurityLog
+│  │  │          └─Users
+│  │  ├─Volo.Abp.Serialization
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Serialization
+│  │  ├─Volo.Abp.Settings
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Settings
+│  │  ├─Volo.Abp.Sms
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Sms
+│  │  ├─Volo.Abp.Sms.Aliyun
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Sms
+│  │  │              └─Aliyun
+│  │  ├─Volo.Abp.Specifications
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Specifications
+│  │  ├─Volo.Abp.Swashbuckle
+│  │  │  ├─Microsoft
+│  │  │  │  ├─AspNetCore
+│  │  │  │  │  └─Builder
+│  │  │  │  └─Extensions
+│  │  │  │      └─DependencyInjection
+│  │  │  ├─Volo
+│  │  │  │  └─Abp
+│  │  │  │      └─Swashbuckle
+│  │  │  └─wwwroot
+│  │  │      └─swagger
+│  │  │          └─ui
+│  │  ├─Volo.Abp.TestBase
+│  │  │  ├─Properties
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Testing
+│  │  │              └─Utils
+│  │  ├─Volo.Abp.TextTemplating
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─TextTemplating
+│  │  ├─Volo.Abp.TextTemplating.Core
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─TextTemplating
+│  │  │              └─VirtualFiles
+│  │  ├─Volo.Abp.TextTemplating.Razor
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─TextTemplating
+│  │  │              └─Razor
+│  │  ├─Volo.Abp.TextTemplating.Scriban
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─TextTemplating
+│  │  │              └─Scriban
+│  │  ├─Volo.Abp.Threading
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          ├─Linq
+│  │  │          └─Threading
+│  │  ├─Volo.Abp.Timing
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Timing
+│  │  │              └─Localization
+│  │  ├─Volo.Abp.UI
+│  │  │  ├─Localization
+│  │  │  │  └─Resources
+│  │  │  │      └─AbpUi
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Ui
+│  │  │              └─Branding
+│  │  ├─Volo.Abp.UI.Navigation
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Ui
+│  │  │              └─Navigation
+│  │  │                  ├─Localization
+│  │  │                  │  └─Resource
+│  │  │                  └─Urls
+│  │  ├─Volo.Abp.Uow
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Uow
+│  │  ├─Volo.Abp.Validation
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Validation
+│  │  │              ├─Localization
+│  │  │              └─StringValues
+│  │  ├─Volo.Abp.Validation.Abstractions
+│  │  │  └─Volo
+│  │  │      └─Abp
+│  │  │          └─Validation
+│  │  └─Volo.Abp.VirtualFileSystem
+│  │      ├─Microsoft
+│  │      │  └─Extensions
+│  │      │      └─FileProviders
+│  │      ├─Properties
+│  │      └─Volo
+│  │          └─Abp
+│  │              └─VirtualFileSystem
+│  │                  ├─Embedded
+│  │                  └─Physical
+│  └─test
+│      ├─AbpTestBase
+│      │  ├─Microsoft
+│      │  │  └─Extensions
+│      │  │      └─DependencyInjection
+│      │  ├─Properties
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─TestBase
+│      │              └─Logging
+│      ├─SimpleConsoleDemo
+│      ├─Volo.Abp.AspNetCore.Authentication.OAuth.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AspNetCore
+│      │              └─Authentication
+│      │                  └─OAuth
+│      │                      └─Claims
+│      ├─Volo.Abp.AspNetCore.MultiTenancy.Tests
+│      │  ├─Properties
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AspNetCore
+│      │              ├─App
+│      │              └─MultiTenancy
+│      ├─Volo.Abp.AspNetCore.Mvc.Tests
+│      │  ├─Properties
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AspNetCore
+│      │              ├─App
+│      │              │  └─Views
+│      │              │      ├─LocalizationTest
+│      │              │      └─Simple
+│      │              └─Mvc
+│      │                  ├─ApiExploring
+│      │                  ├─ApplicationConfigurations
+│      │                  ├─Auditing
+│      │                  ├─Authorization
+│      │                  ├─ContentFormatters
+│      │                  ├─Conventions
+│      │                  ├─DependencyInjection
+│      │                  ├─ExceptionHandling
+│      │                  ├─Features
+│      │                  ├─GlobalFeatures
+│      │                  ├─Json
+│      │                  ├─Localization
+│      │                  │  └─Resource
+│      │                  ├─ModelBinding
+│      │                  ├─ProxyScripting
+│      │                  ├─Response
+│      │                  ├─Security
+│      │                  │  ├─Claims
+│      │                  │  └─Headers
+│      │                  ├─Uow
+│      │                  ├─Utils
+│      │                  └─Validation
+│      ├─Volo.Abp.AspNetCore.Mvc.UI.Tests
+│      │  ├─Properties
+│      │  ├─Volo
+│      │  │  └─Abp
+│      │  │      └─AspNetCore
+│      │  │          └─Mvc
+│      │  │              └─UI
+│      │  └─wwwroot
+│      │      └─libs
+│      │          ├─lib1
+│      │          └─lib2
+│      ├─Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Tests
+│      │  ├─Properties
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AspNetCore
+│      │              └─Mvc
+│      │                  └─UI
+│      │                      └─Theme
+│      │                          └─Shared
+│      │                              ├─PageToolbars
+│      │                              ├─Permissions
+│      │                              └─Toolbars
+│      ├─Volo.Abp.AspNetCore.Mvc.Versioning.Tests
+│      │  ├─Properties
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AspNetCore
+│      │              └─Mvc
+│      │                  └─Versioning
+│      │                      ├─App
+│      │                      │  ├─v1
+│      │                      │  └─v2
+│      │                      └─Test
+│      │                          ├─v1
+│      │                          └─v2
+│      ├─Volo.Abp.AspNetCore.Serilog.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AspNetCore
+│      │              ├─App
+│      │              └─Serilog
+│      ├─Volo.Abp.AspNetCore.SignalR.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AspNetCore
+│      │              └─SignalR
+│      │                  └─SampleHubs
+│      ├─Volo.Abp.AspNetCore.Tests
+│      │  ├─Properties
+│      │  ├─Volo
+│      │  │  └─Abp
+│      │  │      └─AspNetCore
+│      │  │          └─VirtualFileSystem
+│      │  └─wwwroot
+│      │      └─SampleFiles
+│      ├─Volo.Abp.Auditing.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Auditing
+│      │              └─App
+│      │                  ├─Entities
+│      │                  └─EntityFrameworkCore
+│      ├─Volo.Abp.Authorization.Tests
+│      │  ├─Microsoft
+│      │  │  └─AspNetCore
+│      │  │      └─Authorization
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Authorization
+│      │              └─TestServices
+│      ├─Volo.Abp.Autofac.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Autofac
+│      │              └─Interception
+│      ├─Volo.Abp.AutoMapper.Tests
+│      │  ├─AutoMapper
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─AutoMapper
+│      │              └─SampleClasses
+│      ├─Volo.Abp.BackgroundJobs.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─BackgroundJobs
+│      ├─Volo.Abp.BlobStoring.Aliyun.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─BlobStoring
+│      │              └─Aliyun
+│      ├─Volo.Abp.BlobStoring.Aws.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─BlobStoring
+│      │              └─Aws
+│      ├─Volo.Abp.BlobStoring.Azure.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─BlobStoring
+│      │              └─Azure
+│      ├─Volo.Abp.BlobStoring.FileSystem.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─BlobStoring
+│      │              └─FileSystem
+│      ├─Volo.Abp.BlobStoring.Minio.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─BlobStoring
+│      │              └─Minio
+│      ├─Volo.Abp.BlobStoring.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─BlobStoring
+│      │              ├─Fakes
+│      │              └─TestObjects
+│      ├─Volo.Abp.Caching.StackExchangeRedis.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Caching
+│      │              └─StackExchangeRedis
+│      ├─Volo.Abp.Caching.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Caching
+│      ├─Volo.Abp.Castle.Core.Tests
+│      ├─Volo.Abp.Cli.Core.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Cli
+│      │              └─Build
+│      ├─Volo.Abp.Core.Tests
+│      │  ├─Microsoft
+│      │  │  └─Extensions
+│      │  │      └─DependencyInjection
+│      │  ├─System
+│      │  │  ├─Collections
+│      │  │  │  └─Generic
+│      │  │  └─Linq
+│      │  └─Volo
+│      │      └─Abp
+│      │          ├─Configuration
+│      │          ├─DependencyInjection
+│      │          ├─DynamicProxy
+│      │          ├─IO
+│      │          ├─Modularity
+│      │          ├─Reflection
+│      │          ├─SimpleStateChecking
+│      │          ├─Text
+│      │          │  └─Formatting
+│      │          └─Threading
+│      ├─Volo.Abp.Dapper.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Dapper
+│      │              └─Repositories
+│      ├─Volo.Abp.Data.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Data
+│      ├─Volo.Abp.Ddd.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Domain
+│      │              ├─Entities
+│      │              │  └─Events
+│      │              │      └─Distributed
+│      │              ├─Repositories
+│      │              └─Values
+│      ├─Volo.Abp.DistributedLocking.Abstractions.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─DistributedLocking
+│      ├─Volo.Abp.Emailing.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Emailing
+│      │              └─Localization
+│      ├─Volo.Abp.EntityFrameworkCore.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          ├─EntityFrameworkCore
+│      │          │  ├─Auditing
+│      │          │  ├─DataFiltering
+│      │          │  ├─Domain
+│      │          │  ├─DomainEvents
+│      │          │  ├─Repositories
+│      │          │  ├─Transactions
+│      │          │  ├─Uow
+│      │          │  └─ValueConverters
+│      │          └─TestApp
+│      │              ├─Domain
+│      │              └─EntityFrameworkCore
+│      ├─Volo.Abp.EntityFrameworkCore.Tests.SecondContext
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─EntityFrameworkCore
+│      │              └─TestApp
+│      │                  ├─FourthContext
+│      │                  ├─SecondContext
+│      │                  └─ThirdDbContext
+│      ├─Volo.Abp.EventBus.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─EventBus
+│      │              ├─Distributed
+│      │              └─Local
+│      ├─Volo.Abp.Features.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Features
+│      ├─Volo.Abp.FluentValidation.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─FluentValidation
+│      ├─Volo.Abp.GlobalFeatures.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─GlobalFeatures
+│      ├─Volo.Abp.Http.Client.IdentityModel.Web.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Http
+│      │              └─Client
+│      │                  └─IdentityModel
+│      │                      └─Web
+│      ├─Volo.Abp.Http.Client.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Http
+│      │              ├─DynamicProxying
+│      │              └─Localization
+│      ├─Volo.Abp.Http.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Http
+│      ├─Volo.Abp.IdentityModel.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─IdentityModel
+│      ├─Volo.Abp.Json.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Json
+│      ├─Volo.Abp.Ldap.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Ldap
+│      ├─Volo.Abp.Localization.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Localization
+│      │              └─TestResources
+│      │                  ├─Base
+│      │                  │  ├─CountryNames
+│      │                  │  └─Validation
+│      │                  ├─Source
+│      │                  └─SourceExt
+│      ├─Volo.Abp.MailKit.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─MailKit
+│      ├─Volo.Abp.MemoryDb.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          ├─MemoryDb
+│      │          │  ├─Auditing
+│      │          │  ├─DataFilters
+│      │          │  ├─DomainEvents
+│      │          │  ├─JsonConverters
+│      │          │  └─Repositories
+│      │          └─TestApp
+│      │              └─MemoryDb
+│      ├─Volo.Abp.Minify.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Minify
+│      │              └─NUglify
+│      ├─Volo.Abp.MongoDB.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          ├─MongoDB
+│      │          │  ├─Auditing
+│      │          │  ├─DataFiltering
+│      │          │  ├─Domain
+│      │          │  ├─DomainEvents
+│      │          │  ├─Repositories
+│      │          │  ├─Serializer
+│      │          │  ├─Transactions
+│      │          │  └─Uow
+│      │          └─TestApp
+│      │              └─MongoDb
+│      ├─Volo.Abp.MongoDB.Tests.SecondContext
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─MongoDB
+│      │              └─TestApp
+│      │                  ├─FourthContext
+│      │                  ├─SecondContext
+│      │                  └─ThirdDbContext
+│      ├─Volo.Abp.MultiLingualObjects.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─MultiLingualObjects
+│      │              └─TestObjects
+│      ├─Volo.Abp.MultiTenancy.Tests
+│      │  ├─Properties
+│      │  └─Volo
+│      │      └─Abp
+│      │          ├─Data
+│      │          │  └─MultiTenancy
+│      │          └─MultiTenancy
+│      ├─Volo.Abp.ObjectExtending.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─ObjectExtending
+│      │              └─TestObjects
+│      ├─Volo.Abp.ObjectMapping.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─ObjectMapping
+│      ├─Volo.Abp.Security.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Security
+│      │              ├─Claims
+│      │              ├─Encryption
+│      │              └─SecurityLog
+│      ├─Volo.Abp.Serialization.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Serialization
+│      │              └─Objects
+│      ├─Volo.Abp.Settings.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Settings
+│      ├─Volo.Abp.Sms.Aliyun.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Sms
+│      │              └─Aliyun
+│      ├─Volo.Abp.Specifications.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Specifications
+│      ├─Volo.Abp.TestApp
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─TestApp
+│      │              ├─Application
+│      │              │  └─Dto
+│      │              ├─Domain
+│      │              └─Testing
+│      ├─Volo.Abp.TestApp.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─TestApp
+│      │              └─Application
+│      ├─Volo.Abp.TextTemplating.Razor.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─TextTemplating
+│      │              └─Razor
+│      │                  └─SampleTemplates
+│      │                      └─WelcomeEmail
+│      ├─Volo.Abp.TextTemplating.Scriban.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─TextTemplating
+│      │              └─Scriban
+│      │                  └─SampleTemplates
+│      │                      └─WelcomeEmail
+│      ├─Volo.Abp.TextTemplating.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─TextTemplating
+│      │              ├─Localization
+│      │              ├─SampleTemplates
+│      │              └─VirtualFiles
+│      ├─Volo.Abp.Threading.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Threading
+│      ├─Volo.Abp.UI.Navigation.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Ui
+│      │              └─Navigation
+│      ├─Volo.Abp.Uow.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Uow
+│      ├─Volo.Abp.Validation.Tests
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Validation
+│      └─Volo.Abp.VirtualFileSystem.Tests
+│          └─Volo
+│              └─Abp
+│                  └─VirtualFileSystem
+│                      └─MyResources
+│                          └─js
+├─modules
+│  ├─account
+│  │  ├─src
+│  │  │  ├─Volo.Abp.Account.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Account
+│  │  │  │              ├─Emailing
+│  │  │  │              │  └─Templates
+│  │  │  │              └─Settings
+│  │  │  ├─Volo.Abp.Account.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Account
+│  │  │  │              ├─Localization
+│  │  │  │              │  └─Resources
+│  │  │  │              └─Settings
+│  │  │  ├─Volo.Abp.Account.Blazor
+│  │  │  │  └─Pages
+│  │  │  │      └─Account
+│  │  │  ├─Volo.Abp.Account.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Account
+│  │  │  ├─Volo.Abp.Account.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Account
+│  │  │  ├─Volo.Abp.Account.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Account
+│  │  │  ├─Volo.Abp.Account.Web
+│  │  │  │  ├─Areas
+│  │  │  │  │  └─Account
+│  │  │  │  │      └─Controllers
+│  │  │  │  │          └─Models
+│  │  │  │  ├─Modules
+│  │  │  │  │  └─Account
+│  │  │  │  │      └─Components
+│  │  │  │  │          └─Toolbar
+│  │  │  │  │              └─UserLoginLink
+│  │  │  │  ├─Pages
+│  │  │  │  │  └─Account
+│  │  │  │  │      └─Components
+│  │  │  │  │          └─ProfileManagementGroup
+│  │  │  │  │              ├─Password
+│  │  │  │  │              └─PersonalInfo
+│  │  │  │  ├─ProfileManagement
+│  │  │  │  ├─Properties
+│  │  │  │  └─wwwroot
+│  │  │  │      └─client-proxies
+│  │  │  └─Volo.Abp.Account.Web.IdentityServer
+│  │  │      ├─Areas
+│  │  │      │  └─Account
+│  │  │      │      └─Controllers
+│  │  │      ├─Pages
+│  │  │      │  └─Account
+│  │  │      └─Properties
+│  │  └─test
+│  │      └─Volo.Abp.Account.Application.Tests
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─Account
+│  ├─audit-logging
+│  │  ├─src
+│  │  │  ├─Volo.Abp.AuditLogging.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─AuditLogging
+│  │  │  ├─Volo.Abp.AuditLogging.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          ├─AuditLogging
+│  │  │  │          │  └─Localization
+│  │  │  │          └─ObjectExtending
+│  │  │  ├─Volo.Abp.AuditLogging.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─AuditLogging
+│  │  │  │              └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.AuditLogging.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─AuditLogging
+│  │  │  └─Volo.Abp.AuditLogging.MongoDB
+│  │  │      └─Volo
+│  │  │          └─Abp
+│  │  │              └─AuditLogging
+│  │  │                  └─MongoDB
+│  │  └─test
+│  │      ├─Volo.Abp.AuditLogging.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─AuditLogging
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.AuditLogging.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─AuditLogging
+│  │      │              └─MongoDB
+│  │      ├─Volo.Abp.AuditLogging.TestBase
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─AuditLogging
+│  │      └─Volo.Abp.AuditLogging.Tests
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─AuditLogging
+│  ├─background-jobs
+│  │  ├─app
+│  │  │  ├─Volo.Abp.BackgroundJobs.DemoApp
+│  │  │  │  ├─Db
+│  │  │  │  └─Migrations
+│  │  │  ├─Volo.Abp.BackgroundJobs.DemoApp.HangFire
+│  │  │  ├─Volo.Abp.BackgroundJobs.DemoApp.Quartz
+│  │  │  ├─Volo.Abp.BackgroundJobs.DemoApp.RabbitMq
+│  │  │  └─Volo.Abp.BackgroundJobs.DemoApp.Shared
+│  │  │      └─Jobs
+│  │  ├─src
+│  │  │  ├─Volo.Abp.BackgroundJobs.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BackgroundJobs
+│  │  │  ├─Volo.Abp.BackgroundJobs.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BackgroundJobs
+│  │  │  ├─Volo.Abp.BackgroundJobs.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BackgroundJobs
+│  │  │  │              └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.BackgroundJobs.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BackgroundJobs
+│  │  │  └─Volo.Abp.BackgroundJobs.MongoDB
+│  │  │      └─Volo
+│  │  │          └─Abp
+│  │  │              └─BackgroundJobs
+│  │  │                  └─MongoDB
+│  │  └─test
+│  │      ├─Volo.Abp.BackgroundJobs.Domain.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─BackgroundJobs
+│  │      ├─Volo.Abp.BackgroundJobs.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─BackgroundJobs
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.BackgroundJobs.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─BackgroundJobs
+│  │      │              └─MongoDB
+│  │      └─Volo.Abp.BackgroundJobs.TestBase
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─BackgroundJobs
+│  ├─basic-theme
+│  │  ├─src
+│  │  │  ├─Volo.Abp.AspNetCore.Components.Server.BasicTheme
+│  │  │  │  ├─Bundling
+│  │  │  │  └─Themes
+│  │  │  │      └─Basic
+│  │  │  ├─Volo.Abp.AspNetCore.Components.Web.BasicTheme
+│  │  │  │  ├─Themes
+│  │  │  │  │  └─Basic
+│  │  │  │  └─wwwroot
+│  │  │  │      └─libs
+│  │  │  │          └─abp
+│  │  │  │              └─css
+│  │  │  ├─Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme
+│  │  │  │  ├─Pages
+│  │  │  │  └─Themes
+│  │  │  │      └─Basic
+│  │  │  ├─Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic
+│  │  │  │  ├─Bundling
+│  │  │  │  ├─Pages
+│  │  │  │  ├─Themes
+│  │  │  │  │  └─Basic
+│  │  │  │  │      ├─Components
+│  │  │  │  │      │  ├─Brand
+│  │  │  │  │      │  ├─MainNavbar
+│  │  │  │  │      │  ├─Menu
+│  │  │  │  │      │  ├─PageAlerts
+│  │  │  │  │      │  └─Toolbar
+│  │  │  │  │      │      ├─LanguageSwitch
+│  │  │  │  │      │      └─UserMenu
+│  │  │  │  │      └─Layouts
+│  │  │  │  ├─Toolbars
+│  │  │  │  ├─Views
+│  │  │  │  └─wwwroot
+│  │  │  │      └─themes
+│  │  │  │          └─basic
+│  │  │  └─Volo.Abp.BasicTheme.Installer
+│  │  │      └─Volo
+│  │  │          └─Abp
+│  │  │              └─BasicTheme
+│  │  └─test
+│  │      ├─Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo
+│  │      │  ├─Pages
+│  │      │  │  └─Components
+│  │      │  ├─Properties
+│  │      │  └─wwwroot
+│  │      │      ├─css
+│  │      │      ├─imgs
+│  │      │      │  └─demo
+│  │      │      └─libs
+│  │      │          ├─@fortawesome
+│  │      │          │  └─fontawesome-free
+│  │      │          │      ├─css
+│  │      │          │      └─webfonts
+│  │      │          ├─abp
+│  │      │          │  ├─core
+│  │      │          │  ├─jquery
+│  │      │          │  ├─luxon
+│  │      │          │  └─utils
+│  │      │          ├─bootstrap
+│  │      │          │  ├─css
+│  │      │          │  └─js
+│  │      │          ├─bootstrap-datepicker
+│  │      │          │  └─locales
+│  │      │          ├─datatables.net
+│  │      │          │  └─js
+│  │      │          ├─datatables.net-bs5
+│  │      │          │  ├─css
+│  │      │          │  └─js
+│  │      │          ├─highlight.js
+│  │      │          │  ├─docs
+│  │      │          │  ├─lib
+│  │      │          │  │  └─languages
+│  │      │          │  └─styles
+│  │      │          ├─jquery
+│  │      │          ├─jquery-form
+│  │      │          ├─jquery-validation
+│  │      │          │  └─localization
+│  │      │          ├─jquery-validation-unobtrusive
+│  │      │          ├─lodash
+│  │      │          ├─luxon
+│  │      │          ├─malihu-custom-scrollbar-plugin
+│  │      │          ├─select2
+│  │      │          │  ├─css
+│  │      │          │  └─js
+│  │      │          │      └─i18n
+│  │      │          ├─sweetalert2
+│  │      │          ├─timeago
+│  │      │          │  └─locales
+│  │      │          └─toastr
+│  │      ├─Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─AspNetCore
+│  │      │              └─Mvc
+│  │      │                  └─UI
+│  │      │                      └─Bootstrap
+│  │      │                          └─Demo
+│  │      │                              └─Components
+│  │      └─Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo
+│  │          ├─Logs
+│  │          ├─Menus
+│  │          ├─Pages
+│  │          │  └─Components
+│  │          │      ├─Alerts
+│  │          │      ├─Badges
+│  │          │      ├─Borders
+│  │          │      ├─Breadcrumbs
+│  │          │      ├─ButtonGroups
+│  │          │      ├─Buttons
+│  │          │      ├─Cards
+│  │          │      ├─Carousel
+│  │          │      ├─Collapse
+│  │          │      ├─Dropdowns
+│  │          │      ├─DynamicForms
+│  │          │      ├─FormElements
+│  │          │      ├─Grids
+│  │          │      ├─ListGroups
+│  │          │      ├─Modals
+│  │          │      ├─Navbars
+│  │          │      ├─Navs
+│  │          │      ├─Paginator
+│  │          │      ├─Popovers
+│  │          │      ├─ProgressBars
+│  │          │      ├─Tables
+│  │          │      ├─Tabs
+│  │          │      └─Tooltips
+│  │          ├─Properties
+│  │          └─wwwroot
+│  │              ├─demo
+│  │              │  └─styles
+│  │              └─libs
+│  │                  ├─@fortawesome
+│  │                  │  └─fontawesome-free
+│  │                  │      ├─css
+│  │                  │      └─webfonts
+│  │                  ├─abp
+│  │                  │  ├─core
+│  │                  │  ├─jquery
+│  │                  │  ├─luxon
+│  │                  │  └─utils
+│  │                  ├─bootstrap
+│  │                  │  ├─css
+│  │                  │  └─js
+│  │                  ├─bootstrap-datepicker
+│  │                  │  └─locales
+│  │                  ├─clipboard
+│  │                  ├─datatables.net
+│  │                  │  └─js
+│  │                  ├─datatables.net-bs5
+│  │                  │  ├─css
+│  │                  │  └─js
+│  │                  ├─jquery
+│  │                  ├─jquery-form
+│  │                  ├─jquery-validation
+│  │                  │  └─localization
+│  │                  ├─jquery-validation-unobtrusive
+│  │                  ├─lodash
+│  │                  ├─luxon
+│  │                  ├─malihu-custom-scrollbar-plugin
+│  │                  ├─prismjs
+│  │                  │  ├─components
+│  │                  │  ├─plugins
+│  │                  │  │  ├─autolinker
+│  │                  │  │  ├─autoloader
+│  │                  │  │  ├─command-line
+│  │                  │  │  ├─copy-to-clipboard
+│  │                  │  │  ├─custom-class
+│  │                  │  │  ├─data-uri-highlight
+│  │                  │  │  ├─diff-highlight
+│  │                  │  │  ├─download-button
+│  │                  │  │  ├─file-highlight
+│  │                  │  │  ├─filter-highlight-all
+│  │                  │  │  ├─highlight-keywords
+│  │                  │  │  ├─inline-color
+│  │                  │  │  ├─jsonp-highlight
+│  │                  │  │  ├─keep-markup
+│  │                  │  │  ├─line-highlight
+│  │                  │  │  ├─line-numbers
+│  │                  │  │  ├─match-braces
+│  │                  │  │  ├─normalize-whitespace
+│  │                  │  │  ├─previewers
+│  │                  │  │  ├─remove-initial-line-feed
+│  │                  │  │  ├─show-invisibles
+│  │                  │  │  ├─show-language
+│  │                  │  │  ├─toolbar
+│  │                  │  │  ├─treeview
+│  │                  │  │  ├─unescaped-markup
+│  │                  │  │  └─wpd
+│  │                  │  └─themes
+│  │                  ├─select2
+│  │                  │  ├─css
+│  │                  │  └─js
+│  │                  │      └─i18n
+│  │                  ├─sweetalert2
+│  │                  ├─timeago
+│  │                  │  └─locales
+│  │                  └─toastr
+│  ├─blob-storing-database
+│  │  ├─host
+│  │  │  └─BlobStoring.Database.Host.ConsoleApp
+│  │  │      └─src
+│  │  │          └─BlobStoring.Database.Host.ConsoleApp.ConsoleApp
+│  │  │              ├─EfCore
+│  │  │              └─Migrations
+│  │  ├─src
+│  │  │  ├─Volo.Abp.BlobStoring.Database.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BlobStoring
+│  │  │  │              └─Database
+│  │  │  ├─Volo.Abp.BlobStoring.Database.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BlobStoring
+│  │  │  │              └─Database
+│  │  │  │                  └─Localization
+│  │  │  ├─Volo.Abp.BlobStoring.Database.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BlobStoring
+│  │  │  │              └─Database
+│  │  │  │                  └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.BlobStoring.Database.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─BlobStoring
+│  │  │  │              └─Database
+│  │  │  └─Volo.Abp.BlobStoring.Database.MongoDB
+│  │  │      └─Volo
+│  │  │          └─Abp
+│  │  │              └─BlobStoring
+│  │  │                  └─Database
+│  │  │                      └─MongoDB
+│  │  └─test
+│  │      ├─Volo.Abp.BlobStoring.Database.Domain.Tests
+│  │      ├─Volo.Abp.BlobStoring.Database.EntityFrameworkCore.Tests
+│  │      │  └─EntityFrameworkCore
+│  │      ├─Volo.Abp.BlobStoring.Database.MongoDB.Tests
+│  │      │  └─MongoDB
+│  │      └─Volo.Abp.BlobStoring.Database.TestBase
+│  │          └─Security
+│  ├─blogging
+│  │  ├─app
+│  │  │  ├─Volo.BloggingTestApp
+│  │  │  │  ├─Branding
+│  │  │  │  ├─Controllers
+│  │  │  │  ├─Properties
+│  │  │  │  └─wwwroot
+│  │  │  │      └─libs
+│  │  │  │          ├─@fortawesome
+│  │  │  │          │  └─fontawesome-free
+│  │  │  │          │      ├─css
+│  │  │  │          │      └─webfonts
+│  │  │  │          ├─abp
+│  │  │  │          │  ├─core
+│  │  │  │          │  ├─jquery
+│  │  │  │          │  ├─luxon
+│  │  │  │          │  └─utils
+│  │  │  │          ├─bootstrap
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          ├─bootstrap-datepicker
+│  │  │  │          │  └─locales
+│  │  │  │          ├─clipboard
+│  │  │  │          ├─codemirror
+│  │  │  │          ├─datatables.net
+│  │  │  │          │  └─js
+│  │  │  │          ├─datatables.net-bs5
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          ├─highlight.js
+│  │  │  │          │  └─styles
+│  │  │  │          ├─jquery
+│  │  │  │          ├─jquery-form
+│  │  │  │          ├─jquery-validation
+│  │  │  │          │  └─localization
+│  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │          ├─lodash
+│  │  │  │          ├─luxon
+│  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │          ├─markdown-it
+│  │  │  │          ├─owl.carousel
+│  │  │  │          │  └─assets
+│  │  │  │          ├─prismjs
+│  │  │  │          │  ├─components
+│  │  │  │          │  ├─plugins
+│  │  │  │          │  │  ├─autolinker
+│  │  │  │          │  │  ├─autoloader
+│  │  │  │          │  │  ├─command-line
+│  │  │  │          │  │  ├─copy-to-clipboard
+│  │  │  │          │  │  ├─custom-class
+│  │  │  │          │  │  ├─data-uri-highlight
+│  │  │  │          │  │  ├─diff-highlight
+│  │  │  │          │  │  ├─download-button
+│  │  │  │          │  │  ├─file-highlight
+│  │  │  │          │  │  ├─filter-highlight-all
+│  │  │  │          │  │  ├─highlight-keywords
+│  │  │  │          │  │  ├─inline-color
+│  │  │  │          │  │  ├─jsonp-highlight
+│  │  │  │          │  │  ├─keep-markup
+│  │  │  │          │  │  ├─line-highlight
+│  │  │  │          │  │  ├─line-numbers
+│  │  │  │          │  │  ├─match-braces
+│  │  │  │          │  │  ├─normalize-whitespace
+│  │  │  │          │  │  ├─previewers
+│  │  │  │          │  │  ├─remove-initial-line-feed
+│  │  │  │          │  │  ├─show-invisibles
+│  │  │  │          │  │  ├─show-language
+│  │  │  │          │  │  ├─toolbar
+│  │  │  │          │  │  ├─treeview
+│  │  │  │          │  │  ├─unescaped-markup
+│  │  │  │          │  │  └─wpd
+│  │  │  │          │  └─themes
+│  │  │  │          ├─select2
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          │      └─i18n
+│  │  │  │          ├─sweetalert2
+│  │  │  │          ├─timeago
+│  │  │  │          │  └─locales
+│  │  │  │          ├─toastr
+│  │  │  │          └─tui-editor
+│  │  │  ├─Volo.BloggingTestApp.EntityFrameworkCore
+│  │  │  │  └─Migrations
+│  │  │  └─Volo.BloggingTestApp.MongoDB
+│  │  │      └─Volo
+│  │  │          └─BloggingTestApp
+│  │  │              └─MongoDB
+│  │  ├─docs
+│  │  ├─src
+│  │  │  ├─Volo.Blogging.Admin.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          └─Admin
+│  │  │  │              └─Blogs
+│  │  │  ├─Volo.Blogging.Admin.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          └─Admin
+│  │  │  │              └─Blogs
+│  │  │  ├─Volo.Blogging.Admin.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          └─Admin
+│  │  │  ├─Volo.Blogging.Admin.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          └─Admin
+│  │  │  ├─Volo.Blogging.Admin.Web
+│  │  │  │  ├─Pages
+│  │  │  │  │  └─Blogging
+│  │  │  │  │      └─Admin
+│  │  │  │  │          └─Blogs
+│  │  │  │  └─wwwroot
+│  │  │  │      └─client-proxies
+│  │  │  ├─Volo.Blogging.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─Files
+│  │  │  │          ├─Posts
+│  │  │  │          └─Tagging
+│  │  │  ├─Volo.Blogging.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          │  └─Dtos
+│  │  │  │          ├─Files
+│  │  │  │          ├─Posts
+│  │  │  │          └─Tagging
+│  │  │  │              └─Dtos
+│  │  │  ├─Volo.Blogging.Application.Contracts.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          └─Blogs
+│  │  │  │              └─Dtos
+│  │  │  ├─Volo.Blogging.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─Posts
+│  │  │  │          ├─Tagging
+│  │  │  │          └─Users
+│  │  │  ├─Volo.Blogging.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─Localization
+│  │  │  │          │  └─Resources
+│  │  │  │          ├─Posts
+│  │  │  │          └─Tagging
+│  │  │  ├─Volo.Blogging.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─EntityFrameworkCore
+│  │  │  │          ├─Posts
+│  │  │  │          ├─Tagging
+│  │  │  │          └─Users
+│  │  │  ├─Volo.Blogging.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  ├─Volo.Blogging.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  ├─Volo.Blogging.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Blogging
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─MongoDB
+│  │  │  │          ├─Posts
+│  │  │  │          ├─Tagging
+│  │  │  │          └─Users
+│  │  │  └─Volo.Blogging.Web
+│  │  │      ├─Areas
+│  │  │      │  └─Blog
+│  │  │      │      ├─Controllers
+│  │  │      │      └─Helpers
+│  │  │      │          └─TagHelpers
+│  │  │      ├─Bundling
+│  │  │      ├─Pages
+│  │  │      │  └─Blogs
+│  │  │      │      ├─Posts
+│  │  │      │      └─Shared
+│  │  │      │          ├─Helpers
+│  │  │      │          ├─Scripts
+│  │  │      │          └─Styles
+│  │  │      ├─SocialMedia
+│  │  │      └─wwwroot
+│  │  │          └─client-proxies
+│  │  └─test
+│  │      ├─Volo.Blogging.Application.Tests
+│  │      │  └─Volo
+│  │      │      └─Blogging
+│  │      ├─Volo.Blogging.Domain.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Blogging
+│  │      │              ├─Blogs
+│  │      │              ├─Comments
+│  │      │              ├─Posts
+│  │      │              ├─Tagging
+│  │      │              └─Users
+│  │      ├─Volo.Blogging.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Blogging
+│  │      │          ├─Blogs
+│  │      │          ├─Comments
+│  │      │          ├─EntityFrameworkCore
+│  │      │          ├─Posts
+│  │      │          └─Tagging
+│  │      ├─Volo.Blogging.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Blogging
+│  │      │          ├─Blogs
+│  │      │          ├─Comments
+│  │      │          ├─MongoDB
+│  │      │          ├─Posts
+│  │      │          └─Tagging
+│  │      └─Volo.Blogging.TestBase
+│  │          └─Volo
+│  │              └─Blogging
+│  │                  ├─Blogs
+│  │                  ├─Comments
+│  │                  ├─Posts
+│  │                  ├─Tagging
+│  │                  └─Users
+│  ├─client-simulation
+│  │  ├─demo
+│  │  │  └─Volo.ClientSimulation.Demo
+│  │  │      ├─Controllers
+│  │  │      ├─Pages
+│  │  │      ├─Properties
+│  │  │      ├─Scenarios
+│  │  │      └─wwwroot
+│  │  │          └─libs
+│  │  │              ├─@fortawesome
+│  │  │              │  └─fontawesome-free
+│  │  │              │      ├─css
+│  │  │              │      └─webfonts
+│  │  │              ├─abp
+│  │  │              │  ├─core
+│  │  │              │  ├─jquery
+│  │  │              │  ├─luxon
+│  │  │              │  └─utils
+│  │  │              ├─bootstrap
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─bootstrap-datepicker
+│  │  │              │  └─locales
+│  │  │              ├─datatables.net
+│  │  │              │  └─js
+│  │  │              ├─datatables.net-bs5
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─jquery
+│  │  │              ├─jquery-form
+│  │  │              ├─jquery-validation
+│  │  │              │  └─localization
+│  │  │              ├─jquery-validation-unobtrusive
+│  │  │              ├─lodash
+│  │  │              ├─luxon
+│  │  │              ├─malihu-custom-scrollbar-plugin
+│  │  │              ├─select2
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              │      └─i18n
+│  │  │              ├─sweetalert2
+│  │  │              ├─timeago
+│  │  │              │  └─locales
+│  │  │              └─toastr
+│  │  └─src
+│  │      ├─Volo.ClientSimulation
+│  │      │  └─Volo
+│  │      │      └─ClientSimulation
+│  │      │          ├─Clients
+│  │      │          ├─Scenarios
+│  │      │          └─Snapshot
+│  │      └─Volo.ClientSimulation.Web
+│  │          ├─Pages
+│  │          │  └─ClientSimulation
+│  │          └─Properties
+│  ├─cms-kit
+│  │  ├─angular
+│  │  │  └─projects
+│  │  │      ├─cms-kit
+│  │  │      │  ├─config
+│  │  │      │  │  └─src
+│  │  │      │  │      ├─enums
+│  │  │      │  │      └─providers
+│  │  │      │  └─src
+│  │  │      │      └─lib
+│  │  │      │          ├─components
+│  │  │      │          └─services
+│  │  │      └─dev-app
+│  │  │          ├─e2e
+│  │  │          │  └─src
+│  │  │          └─src
+│  │  │              ├─app
+│  │  │              │  ├─home
+│  │  │              │  └─shared
+│  │  │              ├─assets
+│  │  │              └─environments
+│  │  ├─database
+│  │  ├─host
+│  │  │  ├─Volo.CmsKit.Host.Shared
+│  │  │  │  └─MultiTenancy
+│  │  │  ├─Volo.CmsKit.HttpApi.Host
+│  │  │  │  ├─Controllers
+│  │  │  │  ├─EntityFrameworkCore
+│  │  │  │  ├─Migrations
+│  │  │  │  └─Properties
+│  │  │  ├─Volo.CmsKit.IdentityServer
+│  │  │  │  ├─EntityFrameworkCore
+│  │  │  │  ├─IdentityServer
+│  │  │  │  ├─Migrations
+│  │  │  │  ├─Pages
+│  │  │  │  ├─Properties
+│  │  │  │  └─wwwroot
+│  │  │  │      └─libs
+│  │  │  │          ├─@fortawesome
+│  │  │  │          │  └─fontawesome-free
+│  │  │  │          │      ├─css
+│  │  │  │          │      └─webfonts
+│  │  │  │          ├─abp
+│  │  │  │          │  ├─core
+│  │  │  │          │  ├─jquery
+│  │  │  │          │  ├─luxon
+│  │  │  │          │  └─utils
+│  │  │  │          ├─bootstrap
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          ├─bootstrap-datepicker
+│  │  │  │          │  └─locales
+│  │  │  │          ├─datatables.net
+│  │  │  │          │  └─js
+│  │  │  │          ├─datatables.net-bs5
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          ├─jquery
+│  │  │  │          ├─jquery-form
+│  │  │  │          ├─jquery-validation
+│  │  │  │          │  └─localization
+│  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │          ├─lodash
+│  │  │  │          ├─luxon
+│  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │          ├─select2
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          │      └─i18n
+│  │  │  │          ├─sweetalert2
+│  │  │  │          ├─timeago
+│  │  │  │          │  └─locales
+│  │  │  │          └─toastr
+│  │  │  ├─Volo.CmsKit.Web.Host
+│  │  │  │  ├─Controllers
+│  │  │  │  ├─Pages
+│  │  │  │  ├─Properties
+│  │  │  │  ├─Views
+│  │  │  │  └─wwwroot
+│  │  │  │      └─libs
+│  │  │  │          ├─@fortawesome
+│  │  │  │          │  └─fontawesome-free
+│  │  │  │          │      ├─css
+│  │  │  │          │      └─webfonts
+│  │  │  │          ├─abp
+│  │  │  │          │  ├─core
+│  │  │  │          │  ├─jquery
+│  │  │  │          │  ├─luxon
+│  │  │  │          │  └─utils
+│  │  │  │          ├─bootstrap
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          ├─bootstrap-datepicker
+│  │  │  │          │  └─locales
+│  │  │  │          ├─datatables.net
+│  │  │  │          │  └─js
+│  │  │  │          ├─datatables.net-bs5
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          ├─jquery
+│  │  │  │          ├─jquery-form
+│  │  │  │          ├─jquery-validation
+│  │  │  │          │  └─localization
+│  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │          ├─lodash
+│  │  │  │          ├─luxon
+│  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │          ├─select2
+│  │  │  │          │  ├─css
+│  │  │  │          │  └─js
+│  │  │  │          │      └─i18n
+│  │  │  │          ├─sweetalert2
+│  │  │  │          ├─timeago
+│  │  │  │          │  └─locales
+│  │  │  │          └─toastr
+│  │  │  └─Volo.CmsKit.Web.Unified
+│  │  │      ├─EntityFrameworkCore
+│  │  │      ├─Migrations
+│  │  │      ├─Pages
+│  │  │      ├─Properties
+│  │  │      └─wwwroot
+│  │  │          └─libs
+│  │  │              ├─@fortawesome
+│  │  │              │  └─fontawesome-free
+│  │  │              │      ├─css
+│  │  │              │      └─webfonts
+│  │  │              ├─abp
+│  │  │              │  ├─core
+│  │  │              │  ├─jquery
+│  │  │              │  ├─luxon
+│  │  │              │  └─utils
+│  │  │              ├─bootstrap
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─bootstrap-datepicker
+│  │  │              │  └─locales
+│  │  │              ├─clipboard
+│  │  │              ├─codemirror
+│  │  │              ├─datatables.net
+│  │  │              │  └─js
+│  │  │              ├─datatables.net-bs5
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─highlight.js
+│  │  │              │  └─styles
+│  │  │              ├─jquery
+│  │  │              ├─jquery-form
+│  │  │              ├─jquery-validation
+│  │  │              │  └─localization
+│  │  │              ├─jquery-validation-unobtrusive
+│  │  │              ├─jstree
+│  │  │              │  └─themes
+│  │  │              │      ├─default
+│  │  │              │      └─default-dark
+│  │  │              ├─lodash
+│  │  │              ├─luxon
+│  │  │              ├─malihu-custom-scrollbar-plugin
+│  │  │              ├─markdown-it
+│  │  │              ├─prismjs
+│  │  │              │  ├─components
+│  │  │              │  ├─plugins
+│  │  │              │  │  ├─autolinker
+│  │  │              │  │  ├─autoloader
+│  │  │              │  │  ├─command-line
+│  │  │              │  │  ├─copy-to-clipboard
+│  │  │              │  │  ├─custom-class
+│  │  │              │  │  ├─data-uri-highlight
+│  │  │              │  │  ├─diff-highlight
+│  │  │              │  │  ├─download-button
+│  │  │              │  │  ├─file-highlight
+│  │  │              │  │  ├─filter-highlight-all
+│  │  │              │  │  ├─highlight-keywords
+│  │  │              │  │  ├─inline-color
+│  │  │              │  │  ├─jsonp-highlight
+│  │  │              │  │  ├─keep-markup
+│  │  │              │  │  ├─line-highlight
+│  │  │              │  │  ├─line-numbers
+│  │  │              │  │  ├─match-braces
+│  │  │              │  │  ├─normalize-whitespace
+│  │  │              │  │  ├─previewers
+│  │  │              │  │  ├─remove-initial-line-feed
+│  │  │              │  │  ├─show-invisibles
+│  │  │              │  │  ├─show-language
+│  │  │              │  │  ├─toolbar
+│  │  │              │  │  ├─treeview
+│  │  │              │  │  ├─unescaped-markup
+│  │  │              │  │  └─wpd
+│  │  │              │  └─themes
+│  │  │              ├─select2
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              │      └─i18n
+│  │  │              ├─slugify
+│  │  │              ├─star-rating-svg
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─sweetalert2
+│  │  │              ├─timeago
+│  │  │              │  └─locales
+│  │  │              ├─toastr
+│  │  │              ├─tui-editor
+│  │  │              └─uppy
+│  │  ├─src
+│  │  │  ├─Volo.CmsKit.Admin.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─Admin
+│  │  │  │              ├─Blogs
+│  │  │  │              ├─Comments
+│  │  │  │              ├─MediaDescriptors
+│  │  │  │              ├─Menus
+│  │  │  │              ├─Pages
+│  │  │  │              └─Tags
+│  │  │  ├─Volo.CmsKit.Admin.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          ├─Admin
+│  │  │  │          │  ├─Blogs
+│  │  │  │          │  ├─Comments
+│  │  │  │          │  ├─MediaDescriptors
+│  │  │  │          │  ├─Menus
+│  │  │  │          │  ├─Pages
+│  │  │  │          │  └─Tags
+│  │  │  │          └─Permissions
+│  │  │  ├─Volo.CmsKit.Admin.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─Admin
+│  │  │  │              ├─Blogs
+│  │  │  │              ├─Comments
+│  │  │  │              ├─MediaDescriptors
+│  │  │  │              ├─Menus
+│  │  │  │              ├─Pages
+│  │  │  │              └─Tags
+│  │  │  ├─Volo.CmsKit.Admin.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─Admin
+│  │  │  ├─Volo.CmsKit.Admin.Web
+│  │  │  │  ├─Menus
+│  │  │  │  ├─Pages
+│  │  │  │  │  └─CmsKit
+│  │  │  │  │      ├─BlogPosts
+│  │  │  │  │      ├─Blogs
+│  │  │  │  │      ├─Comments
+│  │  │  │  │      ├─Menus
+│  │  │  │  │      │  └─MenuItems
+│  │  │  │  │      ├─Pages
+│  │  │  │  │      └─Tags
+│  │  │  │  │          └─Components
+│  │  │  │  │              └─TagEditor
+│  │  │  │  ├─Properties
+│  │  │  │  └─wwwroot
+│  │  │  │      └─client-proxies
+│  │  │  ├─Volo.CmsKit.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  ├─Volo.CmsKit.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  ├─Volo.CmsKit.Common.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─MediaDescriptors
+│  │  │  │          ├─Menus
+│  │  │  │          └─Tags
+│  │  │  ├─Volo.CmsKit.Common.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─MediaDescriptors
+│  │  │  │          ├─Menus
+│  │  │  │          ├─Permissions
+│  │  │  │          ├─Tags
+│  │  │  │          └─Users
+│  │  │  ├─Volo.CmsKit.Common.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          ├─Blogs
+│  │  │  │          └─MediaDescriptors
+│  │  │  ├─Volo.CmsKit.Common.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  ├─Volo.CmsKit.Common.Web
+│  │  │  │  ├─Contents
+│  │  │  │  ├─Icons
+│  │  │  │  ├─Pages
+│  │  │  │  │  └─CmsKit
+│  │  │  │  ├─Properties
+│  │  │  │  ├─Reactions
+│  │  │  │  └─wwwroot
+│  │  │  │      ├─client-proxies
+│  │  │  │      └─cms-kit
+│  │  │  │          └─icons
+│  │  │  ├─Volo.CmsKit.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─MediaDescriptors
+│  │  │  │          ├─Menus
+│  │  │  │          ├─Pages
+│  │  │  │          ├─Ratings
+│  │  │  │          ├─Reactions
+│  │  │  │          ├─Settings
+│  │  │  │          ├─Tags
+│  │  │  │          └─Users
+│  │  │  ├─Volo.CmsKit.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      ├─Abp
+│  │  │  │      │  └─GlobalFeatures
+│  │  │  │      └─CmsKit
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─Entities
+│  │  │  │          ├─GlobalFeatures
+│  │  │  │          ├─Localization
+│  │  │  │          │  └─Resources
+│  │  │  │          ├─MediaDescriptors
+│  │  │  │          ├─Menus
+│  │  │  │          ├─Pages
+│  │  │  │          ├─Ratings
+│  │  │  │          ├─Reactions
+│  │  │  │          └─Tags
+│  │  │  ├─Volo.CmsKit.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          ├─Blogs
+│  │  │  │          ├─Comments
+│  │  │  │          ├─EntityFrameworkCore
+│  │  │  │          ├─MediaDescriptors
+│  │  │  │          ├─Menus
+│  │  │  │          ├─Pages
+│  │  │  │          ├─Ratings
+│  │  │  │          ├─Reactions
+│  │  │  │          ├─Tags
+│  │  │  │          └─Users
+│  │  │  ├─Volo.CmsKit.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  ├─Volo.CmsKit.HttpApi.Client
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  ├─Volo.CmsKit.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─CmsKit
+│  │  │  ├─Volo.CmsKit.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─MongoDB
+│  │  │  │              ├─Blogs
+│  │  │  │              ├─Comments
+│  │  │  │              ├─MediaDescriptors
+│  │  │  │              ├─Menus
+│  │  │  │              ├─Pages
+│  │  │  │              ├─Ratings
+│  │  │  │              ├─Reactions
+│  │  │  │              ├─Tags
+│  │  │  │              └─Users
+│  │  │  ├─Volo.CmsKit.Public.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─Public
+│  │  │  │              ├─Blogs
+│  │  │  │              ├─Comments
+│  │  │  │              ├─Menus
+│  │  │  │              ├─Pages
+│  │  │  │              ├─Ratings
+│  │  │  │              └─Reactions
+│  │  │  ├─Volo.CmsKit.Public.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─Public
+│  │  │  │              ├─Blogs
+│  │  │  │              ├─Comments
+│  │  │  │              ├─Menus
+│  │  │  │              ├─Pages
+│  │  │  │              ├─Ratings
+│  │  │  │              └─Reactions
+│  │  │  ├─Volo.CmsKit.Public.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─Public
+│  │  │  │              ├─Blogs
+│  │  │  │              ├─Comments
+│  │  │  │              ├─Menus
+│  │  │  │              ├─Pages
+│  │  │  │              ├─Ratings
+│  │  │  │              ├─Reactions
+│  │  │  │              └─Tags
+│  │  │  ├─Volo.CmsKit.Public.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─CmsKit
+│  │  │  │          └─Public
+│  │  │  ├─Volo.CmsKit.Public.Web
+│  │  │  │  ├─Controllers
+│  │  │  │  ├─Menus
+│  │  │  │  ├─Pages
+│  │  │  │  │  ├─CmsKit
+│  │  │  │  │  │  └─Shared
+│  │  │  │  │  │      └─Components
+│  │  │  │  │  │          ├─Blogs
+│  │  │  │  │  │          │  └─BlogPostComment
+│  │  │  │  │  │          ├─Commenting
+│  │  │  │  │  │          ├─Pages
+│  │  │  │  │  │          ├─Rating
+│  │  │  │  │  │          ├─ReactionSelection
+│  │  │  │  │  │          └─Tags
+│  │  │  │  │  └─Public
+│  │  │  │  │      └─CmsKit
+│  │  │  │  │          ├─Blogs
+│  │  │  │  │          └─Pages
+│  │  │  │  ├─Properties
+│  │  │  │  ├─Renderers
+│  │  │  │  └─wwwroot
+│  │  │  │      └─client-proxies
+│  │  │  └─Volo.CmsKit.Web
+│  │  │      └─Properties
+│  │  └─test
+│  │      ├─Volo.CmsKit.Application.Tests
+│  │      │  ├─Blogs
+│  │      │  ├─Comments
+│  │      │  ├─Data
+│  │      │  ├─MediaDescriptors
+│  │      │  ├─Menus
+│  │      │  ├─Pages
+│  │      │  ├─Ratings
+│  │      │  ├─Reactions
+│  │      │  └─Tags
+│  │      ├─Volo.CmsKit.Domain.Tests
+│  │      │  ├─Blogs
+│  │      │  ├─Comments
+│  │      │  ├─Features
+│  │      │  ├─MediaDescriptors
+│  │      │  ├─Menus
+│  │      │  ├─Pages
+│  │      │  ├─Ratings
+│  │      │  ├─Reactions
+│  │      │  └─Tags
+│  │      ├─Volo.CmsKit.EntityFrameworkCore.Tests
+│  │      │  └─EntityFrameworkCore
+│  │      │      ├─Blogs
+│  │      │      ├─Comments
+│  │      │      ├─Menus
+│  │      │      ├─Pages
+│  │      │      ├─Ratings
+│  │      │      ├─Reactions
+│  │      │      └─Tags
+│  │      ├─Volo.CmsKit.HttpApi.Client.ConsoleTestApp
+│  │      ├─Volo.CmsKit.MongoDB.Tests
+│  │      │  └─MongoDB
+│  │      │      ├─Blogs
+│  │      │      ├─Comments
+│  │      │      ├─Menus
+│  │      │      ├─Pages
+│  │      │      ├─Ratings
+│  │      │      ├─Reactions
+│  │      │      └─Tags
+│  │      └─Volo.CmsKit.TestBase
+│  │          ├─Blogs
+│  │          ├─Comments
+│  │          ├─Menus
+│  │          ├─Pages
+│  │          ├─Ratings
+│  │          ├─Reactions
+│  │          ├─Security
+│  │          └─Tags
+│  ├─docs
+│  │  ├─app
+│  │  │  ├─VoloDocs.EntityFrameworkCore
+│  │  │  │  └─Migrations
+│  │  │  ├─VoloDocs.Migrator
+│  │  │  └─VoloDocs.Web
+│  │  │      ├─Branding
+│  │  │      ├─Localization
+│  │  │      │  └─Resources
+│  │  │      │      └─VoloDocs
+│  │  │      │          └─Web
+│  │  │      ├─Pages
+│  │  │      ├─Properties
+│  │  │      ├─Utils
+│  │  │      └─wwwroot
+│  │  │          ├─assets
+│  │  │          │  └─images
+│  │  │          └─libs
+│  │  │              ├─@fortawesome
+│  │  │              │  └─fontawesome-free
+│  │  │              │      ├─css
+│  │  │              │      └─webfonts
+│  │  │              ├─@popperjs
+│  │  │              ├─abp
+│  │  │              │  ├─core
+│  │  │              │  ├─jquery
+│  │  │              │  ├─luxon
+│  │  │              │  └─utils
+│  │  │              ├─anchor-js
+│  │  │              ├─bootstrap
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─bootstrap-datepicker
+│  │  │              │  └─locales
+│  │  │              ├─clipboard
+│  │  │              ├─datatables.net
+│  │  │              │  └─js
+│  │  │              ├─datatables.net-bs5
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─jquery
+│  │  │              ├─jquery-form
+│  │  │              ├─jquery-validation
+│  │  │              │  └─localization
+│  │  │              ├─jquery-validation-unobtrusive
+│  │  │              ├─lodash
+│  │  │              ├─luxon
+│  │  │              ├─malihu-custom-scrollbar-plugin
+│  │  │              ├─prismjs
+│  │  │              │  ├─components
+│  │  │              │  ├─plugins
+│  │  │              │  │  ├─autolinker
+│  │  │              │  │  ├─autoloader
+│  │  │              │  │  ├─command-line
+│  │  │              │  │  ├─copy-to-clipboard
+│  │  │              │  │  ├─custom-class
+│  │  │              │  │  ├─data-uri-highlight
+│  │  │              │  │  ├─diff-highlight
+│  │  │              │  │  ├─download-button
+│  │  │              │  │  ├─file-highlight
+│  │  │              │  │  ├─filter-highlight-all
+│  │  │              │  │  ├─highlight-keywords
+│  │  │              │  │  ├─inline-color
+│  │  │              │  │  ├─jsonp-highlight
+│  │  │              │  │  ├─keep-markup
+│  │  │              │  │  ├─line-highlight
+│  │  │              │  │  ├─line-numbers
+│  │  │              │  │  ├─match-braces
+│  │  │              │  │  ├─normalize-whitespace
+│  │  │              │  │  ├─previewers
+│  │  │              │  │  ├─remove-initial-line-feed
+│  │  │              │  │  ├─show-invisibles
+│  │  │              │  │  ├─show-language
+│  │  │              │  │  ├─toolbar
+│  │  │              │  │  ├─treeview
+│  │  │              │  │  ├─unescaped-markup
+│  │  │              │  │  └─wpd
+│  │  │              │  └─themes
+│  │  │              ├─select2
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              │      └─i18n
+│  │  │              ├─sweetalert2
+│  │  │              ├─timeago
+│  │  │              │  └─locales
+│  │  │              └─toastr
+│  │  ├─src
+│  │  │  ├─Volo.Docs.Admin.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          └─Admin
+│  │  │  │              ├─Documents
+│  │  │  │              └─Projects
+│  │  │  ├─Volo.Docs.Admin.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          └─Admin
+│  │  │  │              ├─Documents
+│  │  │  │              ├─Localization
+│  │  │  │              │  └─Resources
+│  │  │  │              │      └─Docs
+│  │  │  │              │          └─ApplicationContracts
+│  │  │  │              └─Projects
+│  │  │  ├─Volo.Docs.Admin.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          └─Admin
+│  │  │  ├─Volo.Docs.Admin.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          └─Admin
+│  │  │  ├─Volo.Docs.Admin.Web
+│  │  │  │  ├─Navigation
+│  │  │  │  ├─Pages
+│  │  │  │  │  └─Docs
+│  │  │  │  │      └─Admin
+│  │  │  │  │          ├─Documents
+│  │  │  │  │          └─Projects
+│  │  │  │  └─wwwroot
+│  │  │  │      └─client-proxies
+│  │  │  ├─Volo.Docs.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          ├─Documents
+│  │  │  │          └─Projects
+│  │  │  ├─Volo.Docs.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          ├─Documents
+│  │  │  │          └─Projects
+│  │  │  ├─Volo.Docs.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          ├─Caching
+│  │  │  │          ├─Documents
+│  │  │  │          │  └─FullSearch
+│  │  │  │          │      └─Elastic
+│  │  │  │          ├─FileSystem
+│  │  │  │          │  ├─Documents
+│  │  │  │          │  └─Projects
+│  │  │  │          ├─GitHub
+│  │  │  │          │  ├─Documents
+│  │  │  │          │  │  └─Version
+│  │  │  │          │  └─Projects
+│  │  │  │          ├─Localization
+│  │  │  │          │  └─Domain
+│  │  │  │          └─Projects
+│  │  │  ├─Volo.Docs.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      ├─Docs
+│  │  │  │      │  ├─Documents
+│  │  │  │      │  │  └─Version
+│  │  │  │      │  ├─Language
+│  │  │  │      │  ├─Localization
+│  │  │  │      │  └─Projects
+│  │  │  │      └─Extensions
+│  │  │  ├─Volo.Docs.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          ├─Documents
+│  │  │  │          ├─EntityFrameworkCore
+│  │  │  │          └─Projects
+│  │  │  ├─Volo.Docs.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          ├─Documents
+│  │  │  │          └─Projects
+│  │  │  ├─Volo.Docs.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  ├─Volo.Docs.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Docs
+│  │  │  │          ├─Documents
+│  │  │  │          ├─MongoDB
+│  │  │  │          └─Projects
+│  │  │  └─Volo.Docs.Web
+│  │  │      ├─Areas
+│  │  │      │  └─Documents
+│  │  │      │      └─TagHelpers
+│  │  │      ├─Bundling
+│  │  │      ├─HtmlConverting
+│  │  │      ├─Markdown
+│  │  │      │  ├─Extensions
+│  │  │      │  └─Renderers
+│  │  │      ├─Models
+│  │  │      ├─Pages
+│  │  │      │  └─Documents
+│  │  │      │      ├─Project
+│  │  │      │      └─Shared
+│  │  │      │          ├─ErrorComponent
+│  │  │      │          ├─Scripts
+│  │  │      │          └─Styles
+│  │  │      ├─Utils
+│  │  │      └─wwwroot
+│  │  │          └─client-proxies
+│  │  └─test
+│  │      ├─Volo.Docs.Admin.Application.Tests
+│  │      │  └─Volo
+│  │      │      └─Docs
+│  │      ├─Volo.Docs.Application.Tests
+│  │      │  └─Volo
+│  │      │      └─Docs
+│  │      ├─Volo.Docs.Domain.Tests
+│  │      │  └─Volo
+│  │      │      └─Docs
+│  │      ├─Volo.Docs.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Docs
+│  │      │          └─EntityFrameworkCore
+│  │      ├─Volo.Docs.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Docs
+│  │      │          ├─Document
+│  │      │          ├─MongoDB
+│  │      │          └─Project
+│  │      └─Volo.Docs.TestBase
+│  │          └─Volo
+│  │              └─Docs
+│  ├─feature-management
+│  │  ├─src
+│  │  │  ├─Volo.Abp.FeatureManagement.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  ├─Volo.Abp.FeatureManagement.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  │              └─JsonConverters
+│  │  │  ├─Volo.Abp.FeatureManagement.Blazor
+│  │  │  │  └─Components
+│  │  │  ├─Volo.Abp.FeatureManagement.Blazor.Server
+│  │  │  ├─Volo.Abp.FeatureManagement.Blazor.WebAssembly
+│  │  │  ├─Volo.Abp.FeatureManagement.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  ├─Volo.Abp.FeatureManagement.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  │              └─Localization
+│  │  │  │                  └─Domain
+│  │  │  ├─Volo.Abp.FeatureManagement.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  │              └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.FeatureManagement.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  ├─Volo.Abp.FeatureManagement.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  ├─Volo.Abp.FeatureManagement.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  ├─Volo.Abp.FeatureManagement.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─FeatureManagement
+│  │  │  │              └─MongoDB
+│  │  │  └─Volo.Abp.FeatureManagement.Web
+│  │  │      ├─Pages
+│  │  │      │  └─FeatureManagement
+│  │  │      ├─Properties
+│  │  │      └─wwwroot
+│  │  │          └─client-proxies
+│  │  └─test
+│  │      ├─Volo.Abp.FeatureManagement.Application.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─FeatureManagement
+│  │      ├─Volo.Abp.FeatureManagement.Domain.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─FeatureManagement
+│  │      ├─Volo.Abp.FeatureManagement.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─FeatureManagement
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.FeatureManagement.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─FeatureManagement
+│  │      │              └─MongoDB
+│  │      └─Volo.Abp.FeatureManagement.TestBase
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─FeatureManagement
+│  ├─identity
+│  │  ├─src
+│  │  │  ├─Volo.Abp.Identity.Application
+│  │  │  │  ├─Properties
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  ├─Volo.Abp.Identity.Application.Contracts
+│  │  │  │  ├─Properties
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  ├─Volo.Abp.Identity.AspNetCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  │              └─AspNetCore
+│  │  │  ├─Volo.Abp.Identity.Blazor
+│  │  │  │  └─Pages
+│  │  │  │      └─Identity
+│  │  │  ├─Volo.Abp.Identity.Blazor.Server
+│  │  │  ├─Volo.Abp.Identity.Blazor.WebAssembly
+│  │  │  ├─Volo.Abp.Identity.Domain
+│  │  │  │  ├─Microsoft
+│  │  │  │  │  ├─AspNetCore
+│  │  │  │  │  │  └─Identity
+│  │  │  │  │  └─Extensions
+│  │  │  │  │      └─DependencyInjection
+│  │  │  │  ├─Properties
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  ├─Volo.Abp.Identity.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          ├─Identity
+│  │  │  │          │  ├─Localization
+│  │  │  │          │  └─Settings
+│  │  │  │          └─ObjectExtending
+│  │  │  ├─Volo.Abp.Identity.EntityFrameworkCore
+│  │  │  │  ├─Properties
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  │              └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.Identity.HttpApi
+│  │  │  │  ├─Properties
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  ├─Volo.Abp.Identity.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  ├─Properties
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  ├─Volo.Abp.Identity.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  ├─Volo.Abp.Identity.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─Identity
+│  │  │  │              └─MongoDB
+│  │  │  ├─Volo.Abp.Identity.Web
+│  │  │  │  ├─Navigation
+│  │  │  │  ├─Pages
+│  │  │  │  │  └─Identity
+│  │  │  │  │      ├─Roles
+│  │  │  │  │      └─Users
+│  │  │  │  └─wwwroot
+│  │  │  │      └─client-proxies
+│  │  │  └─Volo.Abp.PermissionManagement.Domain.Identity
+│  │  │      └─Volo
+│  │  │          └─Abp
+│  │  │              └─PermissionManagement
+│  │  │                  └─Identity
+│  │  └─test
+│  │      ├─Volo.Abp.Identity.Application.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Identity
+│  │      ├─Volo.Abp.Identity.AspNetCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Identity
+│  │      │              └─AspNetCore
+│  │      ├─Volo.Abp.Identity.Domain.Tests
+│  │      │  ├─Properties
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Identity
+│  │      │              └─LocalizationExtensions
+│  │      ├─Volo.Abp.Identity.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Identity
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.Identity.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Identity
+│  │      │              └─MongoDB
+│  │      └─Volo.Abp.Identity.TestBase
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─Identity
+│  ├─identityserver
+│  │  ├─src
+│  │  │  ├─Volo.Abp.IdentityServer.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─IdentityServer
+│  │  │  │              ├─ApiResources
+│  │  │  │              ├─ApiScopes
+│  │  │  │              ├─AspNetIdentity
+│  │  │  │              ├─Clients
+│  │  │  │              ├─Devices
+│  │  │  │              ├─Grants
+│  │  │  │              ├─IdentityResources
+│  │  │  │              ├─Jwt
+│  │  │  │              ├─Temp
+│  │  │  │              └─Tokens
+│  │  │  ├─Volo.Abp.IdentityServer.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          ├─IdentityServer
+│  │  │  │          │  ├─ApiResources
+│  │  │  │          │  ├─ApiScopes
+│  │  │  │          │  ├─Clients
+│  │  │  │          │  ├─Devices
+│  │  │  │          │  ├─Grants
+│  │  │  │          │  ├─IdentityResources
+│  │  │  │          │  └─Localization
+│  │  │  │          │      └─Resources
+│  │  │  │          └─ObjectExtending
+│  │  │  ├─Volo.Abp.IdentityServer.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─IdentityServer
+│  │  │  │              ├─ApiResources
+│  │  │  │              ├─ApiScopes
+│  │  │  │              ├─Clients
+│  │  │  │              ├─Devices
+│  │  │  │              ├─EntityFrameworkCore
+│  │  │  │              ├─Grants
+│  │  │  │              └─IdentityResources
+│  │  │  ├─Volo.Abp.IdentityServer.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─IdentityServer
+│  │  │  ├─Volo.Abp.IdentityServer.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─IdentityServer
+│  │  │  │              └─MongoDB
+│  │  │  └─Volo.Abp.PermissionManagement.Domain.IdentityServer
+│  │  │      └─Volo
+│  │  │          └─Abp
+│  │  │              └─PermissionManagement
+│  │  │                  └─IdentityServer
+│  │  └─test
+│  │      ├─Volo.Abp.IdentityServer.Domain.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─IdentityServer
+│  │      │              ├─Cache
+│  │      │              ├─Clients
+│  │      │              ├─Devices
+│  │      │              └─Tokens
+│  │      ├─Volo.Abp.IdentityServer.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─IdentityServer
+│  │      ├─Volo.Abp.IdentityServer.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─IdentityServer
+│  │      └─Volo.Abp.IdentityServer.TestBase
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─IdentityServer
+│  ├─permission-management
+│  │  ├─src
+│  │  │  ├─Volo.Abp.PermissionManagement.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  ├─Volo.Abp.PermissionManagement.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  ├─Volo.Abp.PermissionManagement.Blazor
+│  │  │  │  └─Components
+│  │  │  ├─Volo.Abp.PermissionManagement.Blazor.Server
+│  │  │  ├─Volo.Abp.PermissionManagement.Blazor.WebAssembly
+│  │  │  ├─Volo.Abp.PermissionManagement.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  ├─Volo.Abp.PermissionManagement.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  │              └─Localization
+│  │  │  │                  └─Domain
+│  │  │  ├─Volo.Abp.PermissionManagement.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  │              └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.PermissionManagement.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  ├─Volo.Abp.PermissionManagement.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  ├─Volo.Abp.PermissionManagement.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  ├─Volo.Abp.PermissionManagement.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─PermissionManagement
+│  │  │  │              └─MongoDb
+│  │  │  └─Volo.Abp.PermissionManagement.Web
+│  │  │      ├─Pages
+│  │  │      │  └─AbpPermissionManagement
+│  │  │      ├─Properties
+│  │  │      ├─Utils
+│  │  │      └─wwwroot
+│  │  │          └─client-proxies
+│  │  └─test
+│  │      ├─Volo.Abp.PermissionManagement.Application.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─PermissionManagement
+│  │      ├─Volo.Abp.PermissionManagement.Domain.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─PermissionManagement
+│  │      ├─Volo.Abp.PermissionManagement.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─PermissionManagement
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.PermissionManagement.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─PermissionManagement
+│  │      │              └─MongoDb
+│  │      └─Volo.Abp.PermissionManagement.TestBase
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─PermissionManagement
+│  ├─setting-management
+│  │  ├─app
+│  │  │  └─Volo.Abp.SettingManagement.DemoApp
+│  │  │      ├─Migrations
+│  │  │      ├─Pages
+│  │  │      ├─Properties
+│  │  │      └─wwwroot
+│  │  │          └─libs
+│  │  │              ├─@fortawesome
+│  │  │              │  └─fontawesome-free
+│  │  │              │      ├─css
+│  │  │              │      └─webfonts
+│  │  │              ├─abp
+│  │  │              │  ├─core
+│  │  │              │  ├─jquery
+│  │  │              │  ├─luxon
+│  │  │              │  └─utils
+│  │  │              ├─bootstrap
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─bootstrap-datepicker
+│  │  │              │  └─locales
+│  │  │              ├─datatables.net
+│  │  │              │  └─js
+│  │  │              ├─datatables.net-bs5
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              ├─jquery
+│  │  │              ├─jquery-form
+│  │  │              ├─jquery-validation
+│  │  │              │  └─localization
+│  │  │              ├─jquery-validation-unobtrusive
+│  │  │              ├─lodash
+│  │  │              ├─luxon
+│  │  │              ├─malihu-custom-scrollbar-plugin
+│  │  │              ├─select2
+│  │  │              │  ├─css
+│  │  │              │  └─js
+│  │  │              │      └─i18n
+│  │  │              ├─sweetalert2
+│  │  │              ├─timeago
+│  │  │              │  └─locales
+│  │  │              └─toastr
+│  │  ├─src
+│  │  │  ├─Volo.Abp.SettingManagement.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  ├─Volo.Abp.SettingManagement.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  ├─Volo.Abp.SettingManagement.Blazor
+│  │  │  │  ├─Menus
+│  │  │  │  ├─Pages
+│  │  │  │  │  └─SettingManagement
+│  │  │  │  │      └─EmailSettingGroup
+│  │  │  │  └─Settings
+│  │  │  ├─Volo.Abp.SettingManagement.Blazor.Server
+│  │  │  ├─Volo.Abp.SettingManagement.Blazor.WebAssembly
+│  │  │  ├─Volo.Abp.SettingManagement.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  ├─Volo.Abp.SettingManagement.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  │              └─Localization
+│  │  │  │                  └─Resources
+│  │  │  │                      └─AbpSettingManagement
+│  │  │  ├─Volo.Abp.SettingManagement.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  │              └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.SettingManagement.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  ├─Volo.Abp.SettingManagement.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  ├─Volo.Abp.SettingManagement.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  ├─Volo.Abp.SettingManagement.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─SettingManagement
+│  │  │  │              └─MongoDB
+│  │  │  └─Volo.Abp.SettingManagement.Web
+│  │  │      ├─Navigation
+│  │  │      ├─Pages
+│  │  │      │  └─SettingManagement
+│  │  │      │      └─Components
+│  │  │      │          └─EmailSettingGroup
+│  │  │      ├─Properties
+│  │  │      ├─Settings
+│  │  │      └─wwwroot
+│  │  │          └─client-proxies
+│  │  └─test
+│  │      ├─Volo.Abp.SettingManagement.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─SettingManagement
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.SettingManagement.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─SettingManagement
+│  │      │              └─MongoDB
+│  │      ├─Volo.Abp.SettingManagement.TestBase
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─SettingManagement
+│  │      └─Volo.Abp.SettingManagement.Tests
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─SettingManagement
+│  ├─tenant-management
+│  │  ├─src
+│  │  │  ├─Volo.Abp.TenantManagement.Application
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  ├─Volo.Abp.TenantManagement.Application.Contracts
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  ├─Volo.Abp.TenantManagement.Blazor
+│  │  │  │  ├─Navigation
+│  │  │  │  └─Pages
+│  │  │  │      └─TenantManagement
+│  │  │  ├─Volo.Abp.TenantManagement.Blazor.Server
+│  │  │  ├─Volo.Abp.TenantManagement.Blazor.WebAssembly
+│  │  │  ├─Volo.Abp.TenantManagement.Domain
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  ├─Volo.Abp.TenantManagement.Domain.Shared
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          ├─ObjectExtending
+│  │  │  │          └─TenantManagement
+│  │  │  │              └─Localization
+│  │  │  │                  └─Resources
+│  │  │  ├─Volo.Abp.TenantManagement.EntityFrameworkCore
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  │              └─EntityFrameworkCore
+│  │  │  ├─Volo.Abp.TenantManagement.HttpApi
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  ├─Volo.Abp.TenantManagement.HttpApi.Client
+│  │  │  │  ├─ClientProxies
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  ├─Volo.Abp.TenantManagement.Installer
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  ├─Volo.Abp.TenantManagement.MongoDB
+│  │  │  │  └─Volo
+│  │  │  │      └─Abp
+│  │  │  │          └─TenantManagement
+│  │  │  │              └─MongoDb
+│  │  │  └─Volo.Abp.TenantManagement.Web
+│  │  │      ├─Navigation
+│  │  │      ├─Pages
+│  │  │      │  └─TenantManagement
+│  │  │      │      └─Tenants
+│  │  │      ├─Properties
+│  │  │      └─wwwroot
+│  │  │          └─client-proxies
+│  │  └─test
+│  │      ├─Volo.Abp.TenantManagement.Application.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─TenantManagement
+│  │      ├─Volo.Abp.TenantManagement.Domain.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─TenantManagement
+│  │      ├─Volo.Abp.TenantManagement.EntityFrameworkCore.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─TenantManagement
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.TenantManagement.MongoDB.Tests
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─TenantManagement
+│  │      │              └─MongoDb
+│  │      └─Volo.Abp.TenantManagement.TestBase
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─TenantManagement
+│  ├─users
+│  │  └─src
+│  │      ├─Volo.Abp.Users.Abstractions
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Users
+│  │      ├─Volo.Abp.Users.Domain
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Users
+│  │      ├─Volo.Abp.Users.Domain.Shared
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Users
+│  │      ├─Volo.Abp.Users.EntityFrameworkCore
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Users
+│  │      │              └─EntityFrameworkCore
+│  │      ├─Volo.Abp.Users.Installer
+│  │      │  └─Volo
+│  │      │      └─Abp
+│  │      │          └─Users
+│  │      └─Volo.Abp.Users.MongoDB
+│  │          └─Volo
+│  │              └─Abp
+│  │                  └─Users
+│  │                      └─MongoDB
+│  └─virtual-file-explorer
+│      ├─app
+│      │  └─Volo.Abp.VirtualFileExplorer.DemoApp
+│      │      ├─Branding
+│      │      ├─Pages
+│      │      ├─Properties
+│      │      └─wwwroot
+│      │          └─libs
+│      │              ├─@fortawesome
+│      │              │  └─fontawesome-free
+│      │              │      ├─css
+│      │              │      └─webfonts
+│      │              ├─abp
+│      │              │  ├─core
+│      │              │  ├─jquery
+│      │              │  ├─luxon
+│      │              │  └─utils
+│      │              ├─bootstrap
+│      │              │  ├─css
+│      │              │  └─js
+│      │              ├─bootstrap-datepicker
+│      │              │  └─locales
+│      │              ├─clipboard
+│      │              ├─datatables.net
+│      │              │  └─js
+│      │              ├─datatables.net-bs5
+│      │              │  ├─css
+│      │              │  └─js
+│      │              ├─jquery
+│      │              ├─jquery-form
+│      │              ├─jquery-validation
+│      │              │  └─localization
+│      │              ├─jquery-validation-unobtrusive
+│      │              ├─lodash
+│      │              ├─luxon
+│      │              ├─malihu-custom-scrollbar-plugin
+│      │              ├─prismjs
+│      │              │  ├─components
+│      │              │  ├─plugins
+│      │              │  │  ├─autolinker
+│      │              │  │  ├─autoloader
+│      │              │  │  ├─command-line
+│      │              │  │  ├─copy-to-clipboard
+│      │              │  │  ├─custom-class
+│      │              │  │  ├─data-uri-highlight
+│      │              │  │  ├─diff-highlight
+│      │              │  │  ├─download-button
+│      │              │  │  ├─file-highlight
+│      │              │  │  ├─filter-highlight-all
+│      │              │  │  ├─highlight-keywords
+│      │              │  │  ├─inline-color
+│      │              │  │  ├─jsonp-highlight
+│      │              │  │  ├─keep-markup
+│      │              │  │  ├─line-highlight
+│      │              │  │  ├─line-numbers
+│      │              │  │  ├─match-braces
+│      │              │  │  ├─normalize-whitespace
+│      │              │  │  ├─previewers
+│      │              │  │  ├─remove-initial-line-feed
+│      │              │  │  ├─show-invisibles
+│      │              │  │  ├─show-language
+│      │              │  │  ├─toolbar
+│      │              │  │  ├─treeview
+│      │              │  │  ├─unescaped-markup
+│      │              │  │  └─wpd
+│      │              │  └─themes
+│      │              ├─select2
+│      │              │  ├─css
+│      │              │  └─js
+│      │              │      └─i18n
+│      │              ├─sweetalert2
+│      │              ├─timeago
+│      │              │  └─locales
+│      │              └─toastr
+│      └─src
+│          ├─Volo.Abp.VirtualFileExplorer.Installer
+│          │  └─Volo
+│          │      └─Abp
+│          │          └─VirtualFileExplorer
+│          └─Volo.Abp.VirtualFileExplorer.Web
+│              ├─Bundling
+│              ├─Localization
+│              │  └─Resources
+│              ├─Models
+│              ├─Navigation
+│              ├─Pages
+│              │  └─VirtualFileExplorer
+│              └─Properties
+├─npm
+│  ├─ng-packs
+│  │  ├─.vscode
+│  │  ├─apps
+│  │  │  ├─dev-app
+│  │  │  │  └─src
+│  │  │  │      ├─app
+│  │  │  │      │  ├─home
+│  │  │  │      │  └─shared
+│  │  │  │      ├─assets
+│  │  │  │      └─environments
+│  │  │  └─dev-app-e2e
+│  │  │      └─src
+│  │  │          ├─fixtures
+│  │  │          ├─integration
+│  │  │          ├─plugins
+│  │  │          └─support
+│  │  ├─packages
+│  │  │  ├─account
+│  │  │  │  ├─config
+│  │  │  │  │  └─src
+│  │  │  │  │      ├─enums
+│  │  │  │  │      ├─providers
+│  │  │  │  │      └─utils
+│  │  │  │  └─src
+│  │  │  │      └─lib
+│  │  │  │          ├─components
+│  │  │  │          │  ├─change-password
+│  │  │  │          │  ├─forgot-password
+│  │  │  │          │  ├─login
+│  │  │  │          │  ├─manage-profile
+│  │  │  │          │  ├─personal-settings
+│  │  │  │          │  ├─register
+│  │  │  │          │  └─reset-password
+│  │  │  │          ├─enums
+│  │  │  │          ├─guards
+│  │  │  │          ├─models
+│  │  │  │          ├─services
+│  │  │  │          ├─tokens
+│  │  │  │          └─utils
+│  │  │  ├─account-core
+│  │  │  │  ├─proxy
+│  │  │  │  │  └─src
+│  │  │  │  │      └─lib
+│  │  │  │  │          └─proxy
+│  │  │  │  │              ├─account
+│  │  │  │  │              │  └─web
+│  │  │  │  │              │      └─areas
+│  │  │  │  │              │          └─account
+│  │  │  │  │              │              └─controllers
+│  │  │  │  │              │                  └─models
+│  │  │  │  │              └─identity
+│  │  │  │  └─src
+│  │  │  │      └─lib
+│  │  │  ├─components
+│  │  │  │  ├─chart.js
+│  │  │  │  │  └─src
+│  │  │  │  ├─page
+│  │  │  │  │  └─src
+│  │  │  │  ├─src
+│  │  │  │  └─tree
+│  │  │  │      └─src
+│  │  │  │          └─lib
+│  │  │  │              ├─components
+│  │  │  │              ├─templates
+│  │  │  │              └─utils
+│  │  │  ├─core
+│  │  │  │  ├─locale
+│  │  │  │  │  └─src
+│  │  │  │  │      └─utils
+│  │  │  │  ├─src
+│  │  │  │  │  └─lib
+│  │  │  │  │      ├─abstracts
+│  │  │  │  │      ├─components
+│  │  │  │  │      ├─constants
+│  │  │  │  │      ├─directives
+│  │  │  │  │      ├─enums
+│  │  │  │  │      ├─guards
+│  │  │  │  │      ├─handlers
+│  │  │  │  │      ├─interceptors
+│  │  │  │  │      ├─models
+│  │  │  │  │      ├─pipes
+│  │  │  │  │      ├─providers
+│  │  │  │  │      ├─proxy
+│  │  │  │  │      │  ├─pages
+│  │  │  │  │      │  │  └─abp
+│  │  │  │  │      │  │      └─multi-tenancy
+│  │  │  │  │      │  └─volo
+│  │  │  │  │      │      └─abp
+│  │  │  │  │      │          ├─asp-net-core
+│  │  │  │  │      │          │  └─mvc
+│  │  │  │  │      │          │      ├─api-exploring
+│  │  │  │  │      │          │      ├─application-configurations
+│  │  │  │  │      │          │      │  └─object-extending
+│  │  │  │  │      │          │      └─multi-tenancy
+│  │  │  │  │      │          ├─http
+│  │  │  │  │      │          │  └─modeling
+│  │  │  │  │      │          └─localization
+│  │  │  │  │      ├─services
+│  │  │  │  │      ├─strategies
+│  │  │  │  │      ├─tests
+│  │  │  │  │      │  └─utils
+│  │  │  │  │      ├─tokens
+│  │  │  │  │      ├─utils
+│  │  │  │  │      └─validators
+│  │  │  │  └─testing
+│  │  │  │      └─src
+│  │  │  │          └─lib
+│  │  │  │              ├─services
+│  │  │  │              └─utils
+│  │  │  ├─feature-management
+│  │  │  │  ├─proxy
+│  │  │  │  │  └─src
+│  │  │  │  │      └─lib
+│  │  │  │  │          └─proxy
+│  │  │  │  │              ├─feature-management
+│  │  │  │  │              └─validation
+│  │  │  │  │                  └─string-values
+│  │  │  │  └─src
+│  │  │  │      └─lib
+│  │  │  │          ├─components
+│  │  │  │          │  └─feature-management
+│  │  │  │          ├─directives
+│  │  │  │          ├─enums
+│  │  │  │          └─models
+│  │  │  ├─identity
+│  │  │  │  ├─config
+│  │  │  │  │  └─src
+│  │  │  │  │      ├─enums
+│  │  │  │  │      └─providers
+│  │  │  │  ├─proxy
+│  │  │  │  │  └─src
+│  │  │  │  │      └─lib
+│  │  │  │  │          └─proxy
+│  │  │  │  │              ├─identity
+│  │  │  │  │              └─users
+│  │  │  │  └─src
+│  │  │  │      └─lib
+│  │  │  │          ├─components
+│  │  │  │          │  ├─roles
+│  │  │  │          │  └─users
+│  │  │  │          ├─defaults
+│  │  │  │          ├─enums
+│  │  │  │          ├─guards
+│  │  │  │          ├─models
+│  │  │  │          └─tokens
+│  │  │  ├─permission-management
+│  │  │  │  ├─proxy
+│  │  │  │  │  └─src
+│  │  │  │  │      └─lib
+│  │  │  │  │          └─proxy
+│  │  │  │  └─src
+│  │  │  │      └─lib
+│  │  │  │          ├─components
+│  │  │  │          ├─enums
+│  │  │  │          └─models
+│  │  │  ├─schematics
+│  │  │  │  └─src
+│  │  │  │      ├─commands
+│  │  │  │      │  ├─api
+│  │  │  │      │  │  ├─files-enum
+│  │  │  │      │  │  │  └─proxy
+│  │  │  │      │  │  │      └─__namespace@dir__
+│  │  │  │      │  │  ├─files-model
+│  │  │  │      │  │  │  └─proxy
+│  │  │  │      │  │  │      └─__namespace@dir__
+│  │  │  │      │  │  └─files-service
+│  │  │  │      │  │      └─proxy
+│  │  │  │      │  │          └─__namespace@dir__
+│  │  │  │      │  ├─proxy-add
+│  │  │  │      │  ├─proxy-index
+│  │  │  │      │  ├─proxy-refresh
+│  │  │  │      │  └─proxy-remove
+│  │  │  │      ├─constants
+│  │  │  │      ├─enums
+│  │  │  │      ├─mocks
+│  │  │  │      ├─models
+│  │  │  │      └─utils
+│  │  │  │          └─angular
+│  │  │  ├─setting-management
+│  │  │  │  ├─config
+│  │  │  │  │  └─src
+│  │  │  │  │      ├─components
+│  │  │  │  │      │  └─email-setting-group
+│  │  │  │  │      ├─enums
+│  │  │  │  │      ├─providers
+│  │  │  │  │      ├─proxy
+│  │  │  │  │      └─services
+│  │  │  │  └─src
+│  │  │  │      └─lib
+│  │  │  │          ├─components
+│  │  │  │          └─enums
+│  │  │  ├─tenant-management
+│  │  │  │  ├─config
+│  │  │  │  │  └─src
+│  │  │  │  │      ├─enums
+│  │  │  │  │      └─providers
+│  │  │  │  ├─proxy
+│  │  │  │  │  └─src
+│  │  │  │  │      └─lib
+│  │  │  │  │          └─proxy
+│  │  │  │  └─src
+│  │  │  │      └─lib
+│  │  │  │          ├─components
+│  │  │  │          │  └─tenants
+│  │  │  │          ├─defaults
+│  │  │  │          ├─enums
+│  │  │  │          ├─guards
+│  │  │  │          ├─models
+│  │  │  │          └─tokens
+│  │  │  ├─theme-basic
+│  │  │  │  ├─src
+│  │  │  │  │  └─lib
+│  │  │  │  │      ├─components
+│  │  │  │  │      │  ├─account-layout
+│  │  │  │  │      │  │  ├─auth-wrapper
+│  │  │  │  │      │  │  └─tenant-box
+│  │  │  │  │      │  ├─application-layout
+│  │  │  │  │      │  ├─empty-layout
+│  │  │  │  │      │  ├─logo
+│  │  │  │  │      │  ├─nav-items
+│  │  │  │  │      │  ├─page-alert-container
+│  │  │  │  │      │  ├─routes
+│  │  │  │  │      │  └─validation-error
+│  │  │  │  │      ├─constants
+│  │  │  │  │      ├─enums
+│  │  │  │  │      ├─handlers
+│  │  │  │  │      ├─models
+│  │  │  │  │      ├─providers
+│  │  │  │  │      ├─services
+│  │  │  │  │      ├─tests
+│  │  │  │  │      └─tokens
+│  │  │  │  └─testing
+│  │  │  │      └─src
+│  │  │  │          └─lib
+│  │  │  └─theme-shared
+│  │  │      ├─extensions
+│  │  │      │  ├─src
+│  │  │      │  │  ├─lib
+│  │  │      │  │  │  ├─adapters
+│  │  │      │  │  │  ├─components
+│  │  │      │  │  │  │  ├─abstract-actions
+│  │  │      │  │  │  │  ├─date-time-picker
+│  │  │      │  │  │  │  ├─extensible-form
+│  │  │      │  │  │  │  ├─extensible-table
+│  │  │      │  │  │  │  ├─grid-actions
+│  │  │      │  │  │  │  └─page-toolbar
+│  │  │      │  │  │  ├─constants
+│  │  │      │  │  │  ├─directives
+│  │  │      │  │  │  ├─enums
+│  │  │      │  │  │  ├─models
+│  │  │      │  │  │  │  └─internal
+│  │  │      │  │  │  ├─services
+│  │  │      │  │  │  ├─tokens
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  └─tests
+│  │  │      │  └─testing
+│  │  │      │      └─src
+│  │  │      │          └─lib
+│  │  │      ├─src
+│  │  │      │  └─lib
+│  │  │      │      ├─animations
+│  │  │      │      ├─components
+│  │  │      │      │  ├─breadcrumb
+│  │  │      │      │  ├─breadcrumb-items
+│  │  │      │      │  ├─button
+│  │  │      │      │  ├─confirmation
+│  │  │      │      │  ├─http-error-wrapper
+│  │  │      │      │  ├─loader-bar
+│  │  │      │      │  ├─loading
+│  │  │      │      │  ├─modal
+│  │  │      │      │  ├─toast
+│  │  │      │      │  └─toast-container
+│  │  │      │      ├─constants
+│  │  │      │      ├─directives
+│  │  │      │      ├─enums
+│  │  │      │      ├─handlers
+│  │  │      │      ├─models
+│  │  │      │      ├─providers
+│  │  │      │      ├─services
+│  │  │      │      ├─tests
+│  │  │      │      ├─tokens
+│  │  │      │      └─utils
+│  │  │      └─testing
+│  │  │          └─src
+│  │  │              └─lib
+│  │  │                  └─models
+│  │  ├─scripts
+│  │  ├─source-code-requirements
+│  │  └─tools
+│  │      └─generators
+│  ├─packs
+│  │  ├─anchor-js
+│  │  ├─aspnetcore.components.server.basictheme
+│  │  ├─aspnetcore.components.server.theming
+│  │  ├─aspnetcore.mvc.ui
+│  │  │  └─gulp
+│  │  ├─aspnetcore.mvc.ui.theme.basic
+│  │  ├─aspnetcore.mvc.ui.theme.shared
+│  │  ├─blogging
+│  │  ├─bootstrap
+│  │  │  └─src
+│  │  ├─bootstrap-datepicker
+│  │  ├─chart.js
+│  │  ├─clipboard
+│  │  ├─cms-kit
+│  │  ├─cms-kit.admin
+│  │  ├─cms-kit.public
+│  │  ├─codemirror
+│  │  ├─core
+│  │  │  └─src
+│  │  ├─cropperjs
+│  │  ├─datatables.net
+│  │  ├─datatables.net-bs4
+│  │  ├─datatables.net-bs5
+│  │  ├─docs
+│  │  ├─flag-icon-css
+│  │  ├─font-awesome
+│  │  ├─highlight.js
+│  │  │  └─lib
+│  │  │      └─styles
+│  │  ├─jquery
+│  │  │  └─src
+│  │  ├─jquery-form
+│  │  ├─jquery-validation
+│  │  ├─jquery-validation-unobtrusive
+│  │  ├─jstree
+│  │  ├─lodash
+│  │  ├─luxon
+│  │  │  └─src
+│  │  ├─malihu-custom-scrollbar-plugin
+│  │  ├─markdown-it
+│  │  ├─owl.carousel
+│  │  ├─popper.js
+│  │  ├─prismjs
+│  │  ├─select2
+│  │  ├─signalr
+│  │  ├─slugify
+│  │  ├─star-rating-svg
+│  │  ├─sweetalert2
+│  │  ├─timeago
+│  │  ├─toastr
+│  │  ├─tui-editor
+│  │  │  └─src
+│  │  ├─uppy
+│  │  ├─utils
+│  │  │  └─projects
+│  │  │      └─utils
+│  │  │          └─src
+│  │  │              └─lib
+│  │  ├─vee-validate
+│  │  ├─virtual-file-explorer
+│  │  └─vue
+│  ├─scripts
+│  │  └─utils
+│  └─verdaccio-containers
+│      ├─publish-packages
+│      └─serve-app
+├─nupkg
+├─studio
+│  ├─source-codes
+│  │  ├─Volo.Abp.Account.SourceCode
+│  │  ├─Volo.Abp.AuditLogging.SourceCode
+│  │  ├─Volo.Abp.BackgroundJobs.SourceCode
+│  │  ├─Volo.Abp.BasicTheme.SourceCode
+│  │  ├─Volo.Abp.BlobStoring.Database.SourceCode
+│  │  ├─Volo.Abp.FeatureManagement.SourceCode
+│  │  ├─Volo.Abp.Identity.SourceCode
+│  │  ├─Volo.Abp.IdentityServer.SourceCode
+│  │  ├─Volo.Abp.PermissionManagement.SourceCode
+│  │  ├─Volo.Abp.SettingManagement.SourceCode
+│  │  ├─Volo.Abp.TenantManagement.SourceCode
+│  │  ├─Volo.Abp.Users.SourceCode
+│  │  ├─Volo.Abp.VirtualFileExplorer.SourceCode
+│  │  ├─Volo.Blogging.SourceCode
+│  │  ├─Volo.ClientSimulation.SourceCode
+│  │  ├─Volo.CmsKit.SourceCode
+│  │  └─Volo.Docs.SourceCode
+│  └─src
+│      ├─Volo.Abp.Studio.Analyzing.Abstractions
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Studio
+│      │              └─Analyzing
+│      │                  └─Models
+│      │                      ├─Application
+│      │                      ├─Authorization
+│      │                      ├─Database
+│      │                      ├─Domain
+│      │                      ├─Feature
+│      │                      ├─Module
+│      │                      └─Setting
+│      ├─Volo.Abp.Studio.Domain.CommonServices
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Studio
+│      │              ├─Helpers
+│      │              ├─Modifying
+│      │              ├─Nuget
+│      │              ├─Package
+│      │              ├─Solution
+│      │              └─Xml
+│      ├─Volo.Abp.Studio.Domain.Shared
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Studio
+│      │              ├─Modules
+│      │              └─Package
+│      ├─Volo.Abp.Studio.ModuleInstaller
+│      │  └─Volo
+│      │      └─Abp
+│      │          └─Studio
+│      │              └─ModuleInstalling
+│      │                  └─Steps
+│      └─Volo.Abp.Studio.ModuleInstaller.Abstractions
+│          └─Volo
+│              └─Abp
+│                  └─Studio
+│                      ├─Analyzing
+│                      ├─ModuleInstalling
+│                      │  └─Options
+│                      └─Package
+├─templates
+│  ├─app
+│  │  ├─angular
+│  │  │  ├─.vscode
+│  │  │  └─src
+│  │  │      ├─app
+│  │  │      │  ├─home
+│  │  │      │  └─shared
+│  │  │      ├─assets
+│  │  │      └─environments
+│  │  ├─aspnet-core
+│  │  │  ├─src
+│  │  │  │  ├─MyCompanyName.MyProjectName.Application
+│  │  │  │  │  └─Properties
+│  │  │  │  ├─MyCompanyName.MyProjectName.Application.Contracts
+│  │  │  │  │  └─Permissions
+│  │  │  │  ├─MyCompanyName.MyProjectName.Blazor
+│  │  │  │  │  ├─Menus
+│  │  │  │  │  ├─Pages
+│  │  │  │  │  ├─Properties
+│  │  │  │  │  └─wwwroot
+│  │  │  │  ├─MyCompanyName.MyProjectName.Blazor.Server
+│  │  │  │  │  ├─Menus
+│  │  │  │  │  ├─Pages
+│  │  │  │  │  ├─Properties
+│  │  │  │  │  └─wwwroot
+│  │  │  │  │      └─libs
+│  │  │  │  │          ├─@fortawesome
+│  │  │  │  │          │  └─fontawesome-free
+│  │  │  │  │          │      ├─css
+│  │  │  │  │          │      └─webfonts
+│  │  │  │  │          ├─abp
+│  │  │  │  │          │  ├─core
+│  │  │  │  │          │  ├─jquery
+│  │  │  │  │          │  ├─luxon
+│  │  │  │  │          │  └─utils
+│  │  │  │  │          ├─bootstrap
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─bootstrap-datepicker
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          ├─datatables.net
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs4
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs5
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─jquery
+│  │  │  │  │          ├─jquery-form
+│  │  │  │  │          ├─jquery-validation
+│  │  │  │  │          │  └─localization
+│  │  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │  │          ├─lodash
+│  │  │  │  │          ├─luxon
+│  │  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │  │          ├─select2
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          │      └─i18n
+│  │  │  │  │          ├─sweetalert
+│  │  │  │  │          ├─sweetalert2
+│  │  │  │  │          ├─timeago
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          └─toastr
+│  │  │  │  ├─MyCompanyName.MyProjectName.Blazor.Server.Tiered
+│  │  │  │  │  ├─Components
+│  │  │  │  │  │  └─Toolbar
+│  │  │  │  │  │      └─LoginLink
+│  │  │  │  │  ├─Controllers
+│  │  │  │  │  ├─Menus
+│  │  │  │  │  ├─Pages
+│  │  │  │  │  ├─Properties
+│  │  │  │  │  └─wwwroot
+│  │  │  │  │      └─libs
+│  │  │  │  │          ├─@fortawesome
+│  │  │  │  │          │  └─fontawesome-free
+│  │  │  │  │          │      ├─css
+│  │  │  │  │          │      └─webfonts
+│  │  │  │  │          ├─abp
+│  │  │  │  │          │  ├─core
+│  │  │  │  │          │  ├─jquery
+│  │  │  │  │          │  ├─luxon
+│  │  │  │  │          │  └─utils
+│  │  │  │  │          ├─bootstrap
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─bootstrap-datepicker
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          ├─datatables.net
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs4
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs5
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─jquery
+│  │  │  │  │          ├─jquery-form
+│  │  │  │  │          ├─jquery-validation
+│  │  │  │  │          │  └─localization
+│  │  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │  │          ├─lodash
+│  │  │  │  │          ├─luxon
+│  │  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │  │          ├─select2
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          │      └─i18n
+│  │  │  │  │          ├─sweetalert
+│  │  │  │  │          ├─sweetalert2
+│  │  │  │  │          ├─timeago
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          └─toastr
+│  │  │  │  ├─MyCompanyName.MyProjectName.DbMigrator
+│  │  │  │  ├─MyCompanyName.MyProjectName.Domain
+│  │  │  │  │  ├─Data
+│  │  │  │  │  ├─IdentityServer
+│  │  │  │  │  ├─Properties
+│  │  │  │  │  └─Settings
+│  │  │  │  ├─MyCompanyName.MyProjectName.Domain.Shared
+│  │  │  │  │  ├─Localization
+│  │  │  │  │  │  └─MyProjectName
+│  │  │  │  │  └─MultiTenancy
+│  │  │  │  ├─MyCompanyName.MyProjectName.EntityFrameworkCore
+│  │  │  │  │  ├─EntityFrameworkCore
+│  │  │  │  │  ├─Migrations
+│  │  │  │  │  └─Properties
+│  │  │  │  ├─MyCompanyName.MyProjectName.HttpApi
+│  │  │  │  │  ├─Controllers
+│  │  │  │  │  └─Models
+│  │  │  │  │      └─Test
+│  │  │  │  ├─MyCompanyName.MyProjectName.HttpApi.Client
+│  │  │  │  ├─MyCompanyName.MyProjectName.HttpApi.Host
+│  │  │  │  │  ├─Controllers
+│  │  │  │  │  └─Properties
+│  │  │  │  ├─MyCompanyName.MyProjectName.HttpApi.HostWithIds
+│  │  │  │  │  ├─Controllers
+│  │  │  │  │  ├─Properties
+│  │  │  │  │  └─wwwroot
+│  │  │  │  │      └─libs
+│  │  │  │  │          ├─@fortawesome
+│  │  │  │  │          │  └─fontawesome-free
+│  │  │  │  │          │      ├─css
+│  │  │  │  │          │      └─webfonts
+│  │  │  │  │          ├─abp
+│  │  │  │  │          │  ├─core
+│  │  │  │  │          │  ├─jquery
+│  │  │  │  │          │  ├─luxon
+│  │  │  │  │          │  └─utils
+│  │  │  │  │          ├─bootstrap
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─bootstrap-datepicker
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          ├─datatables.net
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs4
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs5
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─jquery
+│  │  │  │  │          ├─jquery-form
+│  │  │  │  │          ├─jquery-validation
+│  │  │  │  │          │  └─localization
+│  │  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │  │          ├─lodash
+│  │  │  │  │          ├─luxon
+│  │  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │  │          ├─select2
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          │      └─i18n
+│  │  │  │  │          ├─sweetalert
+│  │  │  │  │          ├─sweetalert2
+│  │  │  │  │          ├─timeago
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          └─toastr
+│  │  │  │  ├─MyCompanyName.MyProjectName.IdentityServer
+│  │  │  │  │  ├─Pages
+│  │  │  │  │  ├─Properties
+│  │  │  │  │  └─wwwroot
+│  │  │  │  │      └─libs
+│  │  │  │  │          ├─@fortawesome
+│  │  │  │  │          │  └─fontawesome-free
+│  │  │  │  │          │      ├─css
+│  │  │  │  │          │      └─webfonts
+│  │  │  │  │          ├─abp
+│  │  │  │  │          │  ├─core
+│  │  │  │  │          │  ├─jquery
+│  │  │  │  │          │  ├─luxon
+│  │  │  │  │          │  └─utils
+│  │  │  │  │          ├─bootstrap
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─bootstrap-datepicker
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          ├─datatables.net
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs4
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs5
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─jquery
+│  │  │  │  │          ├─jquery-form
+│  │  │  │  │          ├─jquery-validation
+│  │  │  │  │          │  └─localization
+│  │  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │  │          ├─lodash
+│  │  │  │  │          ├─luxon
+│  │  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │  │          ├─select2
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          │      └─i18n
+│  │  │  │  │          ├─sweetalert
+│  │  │  │  │          ├─sweetalert2
+│  │  │  │  │          ├─timeago
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          └─toastr
+│  │  │  │  ├─MyCompanyName.MyProjectName.MongoDB
+│  │  │  │  │  ├─MongoDb
+│  │  │  │  │  └─Properties
+│  │  │  │  ├─MyCompanyName.MyProjectName.Web
+│  │  │  │  │  ├─Components
+│  │  │  │  │  ├─Menus
+│  │  │  │  │  ├─Pages
+│  │  │  │  │  ├─Properties
+│  │  │  │  │  ├─Views
+│  │  │  │  │  └─wwwroot
+│  │  │  │  │      └─libs
+│  │  │  │  │          ├─@fortawesome
+│  │  │  │  │          │  └─fontawesome-free
+│  │  │  │  │          │      ├─css
+│  │  │  │  │          │      └─webfonts
+│  │  │  │  │          ├─abp
+│  │  │  │  │          │  ├─core
+│  │  │  │  │          │  ├─jquery
+│  │  │  │  │          │  ├─luxon
+│  │  │  │  │          │  └─utils
+│  │  │  │  │          ├─bootstrap
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─bootstrap-datepicker
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          ├─datatables.net
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs4
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─datatables.net-bs5
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          ├─jquery
+│  │  │  │  │          ├─jquery-form
+│  │  │  │  │          ├─jquery-validation
+│  │  │  │  │          │  └─localization
+│  │  │  │  │          ├─jquery-validation-unobtrusive
+│  │  │  │  │          ├─lodash
+│  │  │  │  │          ├─luxon
+│  │  │  │  │          ├─malihu-custom-scrollbar-plugin
+│  │  │  │  │          ├─select2
+│  │  │  │  │          │  ├─css
+│  │  │  │  │          │  └─js
+│  │  │  │  │          │      └─i18n
+│  │  │  │  │          ├─sweetalert
+│  │  │  │  │          ├─sweetalert2
+│  │  │  │  │          ├─timeago
+│  │  │  │  │          │  └─locales
+│  │  │  │  │          └─toastr
+│  │  │  │  └─MyCompanyName.MyProjectName.Web.Host
+│  │  │  │      ├─Components
+│  │  │  │      │  └─Toolbar
+│  │  │  │      │      └─LoginLink
+│  │  │  │      ├─Controllers
+│  │  │  │      ├─Menus
+│  │  │  │      ├─Pages
+│  │  │  │      ├─Properties
+│  │  │  │      ├─Views
+│  │  │  │      └─wwwroot
+│  │  │  │          └─libs
+│  │  │  │              ├─@fortawesome
+│  │  │  │              │  └─fontawesome-free
+│  │  │  │              │      ├─css
+│  │  │  │              │      └─webfonts
+│  │  │  │              ├─abp
+│  │  │  │              │  ├─core
+│  │  │  │              │  ├─jquery
+│  │  │  │              │  ├─luxon
+│  │  │  │              │  └─utils
+│  │  │  │              ├─bootstrap
+│  │  │  │              │  ├─css
+│  │  │  │              │  └─js
+│  │  │  │              ├─bootstrap-datepicker
+│  │  │  │              │  └─locales
+│  │  │  │              ├─datatables.net
+│  │  │  │              │  └─js
+│  │  │  │              ├─datatables.net-bs4
+│  │  │  │              │  ├─css
+│  │  │  │              │  └─js
+│  │  │  │              ├─datatables.net-bs5
+│  │  │  │              │  ├─css
+│  │  │  │              │  └─js
+│  │  │  │              ├─jquery
+│  │  │  │              ├─jquery-form
+│  │  │  │              ├─jquery-validation
+│  │  │  │              │  └─localization
+│  │  │  │              ├─jquery-validation-unobtrusive
+│  │  │  │              ├─lodash
+│  │  │  │              ├─luxon
+│  │  │  │              ├─malihu-custom-scrollbar-plugin
+│  │  │  │              ├─select2
+│  │  │  │              │  ├─css
+│  │  │  │              │  └─js
+│  │  │  │              │      └─i18n
+│  │  │  │              ├─sweetalert
+│  │  │  │              ├─sweetalert2
+│  │  │  │              ├─timeago
+│  │  │  │              │  └─locales
+│  │  │  │              └─toastr
+│  │  │  └─test
+│  │  │      ├─MyCompanyName.MyProjectName.Application.Tests
+│  │  │      │  └─Samples
+│  │  │      ├─MyCompanyName.MyProjectName.Domain.Tests
+│  │  │      │  └─Samples
+│  │  │      ├─MyCompanyName.MyProjectName.EntityFrameworkCore.Tests
+│  │  │      │  └─EntityFrameworkCore
+│  │  │      │      └─Samples
+│  │  │      ├─MyCompanyName.MyProjectName.HttpApi.Client.ConsoleTestApp
+│  │  │      ├─MyCompanyName.MyProjectName.MongoDB.Tests
+│  │  │      │  └─MongoDb
+│  │  │      │      └─Samples
+│  │  │      ├─MyCompanyName.MyProjectName.TestBase
+│  │  │      │  └─Security
+│  │  │      └─MyCompanyName.MyProjectName.Web.Tests
+│  │  │          └─Pages
+│  │  └─react-native
+│  │      ├─.vscode
+│  │      ├─assets
+│  │      └─src
+│  │          ├─api
+│  │          ├─components
+│  │          │  ├─AppContainer
+│  │          │  ├─DataList
+│  │          │  ├─DrawerContent
+│  │          │  ├─FormButtons
+│  │          │  ├─Loading
+│  │          │  ├─LoadingButton
+│  │          │  ├─MenuIcon
+│  │          │  ├─TenantBox
+│  │          │  └─ValidationMessage
+│  │          ├─contexts
+│  │          ├─hocs
+│  │          ├─hooks
+│  │          ├─interceptors
+│  │          ├─navigators
+│  │          ├─screens
+│  │          │  ├─ChangePassword
+│  │          │  ├─CreateUpdateTenant
+│  │          │  ├─CreateUpdateUser
+│  │          │  ├─Home
+│  │          │  ├─Login
+│  │          │  ├─ManageProfile
+│  │          │  ├─Settings
+│  │          │  ├─Tenants
+│  │          │  └─Users
+│  │          ├─store
+│  │          │  ├─actions
+│  │          │  ├─reducers
+│  │          │  ├─sagas
+│  │          │  └─selectors
+│  │          ├─theme
+│  │          │  ├─components
+│  │          │  ├─overrides
+│  │          │  └─variables
+│  │          └─utils
+│  ├─console
+│  │  └─src
+│  │      └─MyCompanyName.MyProjectName
+│  ├─module
+│  │  ├─angular
+│  │  │  ├─.vscode
+│  │  │  └─projects
+│  │  │      ├─dev-app
+│  │  │      │  └─src
+│  │  │      │      ├─app
+│  │  │      │      │  ├─home
+│  │  │      │      │  └─shared
+│  │  │      │      ├─assets
+│  │  │      │      └─environments
+│  │  │      └─my-project-name
+│  │  │          ├─config
+│  │  │          │  └─src
+│  │  │          │      ├─enums
+│  │  │          │      └─providers
+│  │  │          └─src
+│  │  │              └─lib
+│  │  │                  ├─components
+│  │  │                  └─services
+│  │  └─aspnet-core
+│  │      ├─database
+│  │      ├─host
+│  │      │  ├─MyCompanyName.MyProjectName.Blazor.Host
+│  │      │  │  ├─Pages
+│  │      │  │  ├─Properties
+│  │      │  │  └─wwwroot
+│  │      │  ├─MyCompanyName.MyProjectName.Blazor.Server.Host
+│  │      │  │  ├─EntityFrameworkCore
+│  │      │  │  ├─Menus
+│  │      │  │  ├─Migrations
+│  │      │  │  ├─Pages
+│  │      │  │  ├─Properties
+│  │      │  │  └─wwwroot
+│  │      │  │      └─libs
+│  │      │  │          ├─@fortawesome
+│  │      │  │          │  └─fontawesome-free
+│  │      │  │          │      ├─css
+│  │      │  │          │      └─webfonts
+│  │      │  │          ├─abp
+│  │      │  │          │  ├─core
+│  │      │  │          │  ├─jquery
+│  │      │  │          │  ├─luxon
+│  │      │  │          │  └─utils
+│  │      │  │          ├─bootstrap
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─bootstrap-datepicker
+│  │      │  │          │  └─locales
+│  │      │  │          ├─datatables.net
+│  │      │  │          │  └─js
+│  │      │  │          ├─datatables.net-bs4
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─datatables.net-bs5
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─jquery
+│  │      │  │          ├─jquery-form
+│  │      │  │          ├─jquery-validation
+│  │      │  │          │  └─localization
+│  │      │  │          ├─jquery-validation-unobtrusive
+│  │      │  │          ├─lodash
+│  │      │  │          ├─luxon
+│  │      │  │          ├─malihu-custom-scrollbar-plugin
+│  │      │  │          ├─select2
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          │      └─i18n
+│  │      │  │          ├─sweetalert
+│  │      │  │          ├─sweetalert2
+│  │      │  │          ├─timeago
+│  │      │  │          │  └─locales
+│  │      │  │          └─toastr
+│  │      │  ├─MyCompanyName.MyProjectName.Host.Shared
+│  │      │  │  └─MultiTenancy
+│  │      │  ├─MyCompanyName.MyProjectName.HttpApi.Host
+│  │      │  │  ├─Controllers
+│  │      │  │  ├─EntityFrameworkCore
+│  │      │  │  └─Properties
+│  │      │  ├─MyCompanyName.MyProjectName.IdentityServer
+│  │      │  │  ├─EntityFrameworkCore
+│  │      │  │  ├─IdentityServer
+│  │      │  │  ├─Migrations
+│  │      │  │  ├─Pages
+│  │      │  │  ├─Properties
+│  │      │  │  └─wwwroot
+│  │      │  │      └─libs
+│  │      │  │          ├─@fortawesome
+│  │      │  │          │  └─fontawesome-free
+│  │      │  │          │      ├─css
+│  │      │  │          │      └─webfonts
+│  │      │  │          ├─abp
+│  │      │  │          │  ├─core
+│  │      │  │          │  ├─jquery
+│  │      │  │          │  ├─luxon
+│  │      │  │          │  └─utils
+│  │      │  │          ├─bootstrap
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─bootstrap-datepicker
+│  │      │  │          │  └─locales
+│  │      │  │          ├─datatables.net
+│  │      │  │          │  └─js
+│  │      │  │          ├─datatables.net-bs4
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─datatables.net-bs5
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─jquery
+│  │      │  │          ├─jquery-form
+│  │      │  │          ├─jquery-validation
+│  │      │  │          │  └─localization
+│  │      │  │          ├─jquery-validation-unobtrusive
+│  │      │  │          ├─lodash
+│  │      │  │          ├─luxon
+│  │      │  │          ├─malihu-custom-scrollbar-plugin
+│  │      │  │          ├─select2
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          │      └─i18n
+│  │      │  │          ├─sweetalert
+│  │      │  │          ├─sweetalert2
+│  │      │  │          ├─timeago
+│  │      │  │          │  └─locales
+│  │      │  │          └─toastr
+│  │      │  ├─MyCompanyName.MyProjectName.Web.Host
+│  │      │  │  ├─Controllers
+│  │      │  │  ├─Pages
+│  │      │  │  ├─Properties
+│  │      │  │  ├─Views
+│  │      │  │  └─wwwroot
+│  │      │  │      └─libs
+│  │      │  │          ├─@fortawesome
+│  │      │  │          │  └─fontawesome-free
+│  │      │  │          │      ├─css
+│  │      │  │          │      └─webfonts
+│  │      │  │          ├─abp
+│  │      │  │          │  ├─core
+│  │      │  │          │  ├─jquery
+│  │      │  │          │  ├─luxon
+│  │      │  │          │  └─utils
+│  │      │  │          ├─bootstrap
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─bootstrap-datepicker
+│  │      │  │          │  └─locales
+│  │      │  │          ├─datatables.net
+│  │      │  │          │  └─js
+│  │      │  │          ├─datatables.net-bs4
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─datatables.net-bs5
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          ├─jquery
+│  │      │  │          ├─jquery-form
+│  │      │  │          ├─jquery-validation
+│  │      │  │          │  └─localization
+│  │      │  │          ├─jquery-validation-unobtrusive
+│  │      │  │          ├─lodash
+│  │      │  │          ├─luxon
+│  │      │  │          ├─malihu-custom-scrollbar-plugin
+│  │      │  │          ├─select2
+│  │      │  │          │  ├─css
+│  │      │  │          │  └─js
+│  │      │  │          │      └─i18n
+│  │      │  │          ├─sweetalert
+│  │      │  │          ├─sweetalert2
+│  │      │  │          ├─timeago
+│  │      │  │          │  └─locales
+│  │      │  │          └─toastr
+│  │      │  └─MyCompanyName.MyProjectName.Web.Unified
+│  │      │      ├─EntityFrameworkCore
+│  │      │      ├─Migrations
+│  │      │      ├─Pages
+│  │      │      ├─Properties
+│  │      │      └─wwwroot
+│  │      │          └─libs
+│  │      │              ├─@fortawesome
+│  │      │              │  └─fontawesome-free
+│  │      │              │      ├─css
+│  │      │              │      └─webfonts
+│  │      │              ├─abp
+│  │      │              │  ├─core
+│  │      │              │  ├─jquery
+│  │      │              │  ├─luxon
+│  │      │              │  └─utils
+│  │      │              ├─bootstrap
+│  │      │              │  ├─css
+│  │      │              │  └─js
+│  │      │              ├─bootstrap-datepicker
+│  │      │              │  └─locales
+│  │      │              ├─datatables.net
+│  │      │              │  └─js
+│  │      │              ├─datatables.net-bs4
+│  │      │              │  ├─css
+│  │      │              │  └─js
+│  │      │              ├─datatables.net-bs5
+│  │      │              │  ├─css
+│  │      │              │  └─js
+│  │      │              ├─jquery
+│  │      │              ├─jquery-form
+│  │      │              ├─jquery-validation
+│  │      │              │  └─localization
+│  │      │              ├─jquery-validation-unobtrusive
+│  │      │              ├─lodash
+│  │      │              ├─luxon
+│  │      │              ├─malihu-custom-scrollbar-plugin
+│  │      │              ├─select2
+│  │      │              │  ├─css
+│  │      │              │  └─js
+│  │      │              │      └─i18n
+│  │      │              ├─sweetalert
+│  │      │              ├─sweetalert2
+│  │      │              ├─timeago
+│  │      │              │  └─locales
+│  │      │              └─toastr
+│  │      ├─src
+│  │      │  ├─MyCompanyName.MyProjectName.Application
+│  │      │  │  └─Samples
+│  │      │  ├─MyCompanyName.MyProjectName.Application.Contracts
+│  │      │  │  ├─Permissions
+│  │      │  │  └─Samples
+│  │      │  ├─MyCompanyName.MyProjectName.Blazor
+│  │      │  │  ├─Menus
+│  │      │  │  └─Pages
+│  │      │  │      └─MyProjectName
+│  │      │  ├─MyCompanyName.MyProjectName.Blazor.Server
+│  │      │  ├─MyCompanyName.MyProjectName.Blazor.WebAssembly
+│  │      │  ├─MyCompanyName.MyProjectName.Domain
+│  │      │  │  └─Settings
+│  │      │  ├─MyCompanyName.MyProjectName.Domain.Shared
+│  │      │  │  └─Localization
+│  │      │  │      └─MyProjectName
+│  │      │  ├─MyCompanyName.MyProjectName.EntityFrameworkCore
+│  │      │  │  └─EntityFrameworkCore
+│  │      │  ├─MyCompanyName.MyProjectName.HttpApi
+│  │      │  │  └─Samples
+│  │      │  ├─MyCompanyName.MyProjectName.HttpApi.Client
+│  │      │  ├─MyCompanyName.MyProjectName.Installer
+│  │      │  ├─MyCompanyName.MyProjectName.MongoDB
+│  │      │  │  └─MongoDB
+│  │      │  └─MyCompanyName.MyProjectName.Web
+│  │      │      ├─Menus
+│  │      │      ├─Pages
+│  │      │      │  └─MyProjectName
+│  │      │      └─Properties
+│  │      └─test
+│  │          ├─MyCompanyName.MyProjectName.Application.Tests
+│  │          │  └─Samples
+│  │          ├─MyCompanyName.MyProjectName.Domain.Tests
+│  │          │  └─Samples
+│  │          ├─MyCompanyName.MyProjectName.EntityFrameworkCore.Tests
+│  │          │  └─EntityFrameworkCore
+│  │          │      └─Samples
+│  │          ├─MyCompanyName.MyProjectName.HttpApi.Client.ConsoleTestApp
+│  │          ├─MyCompanyName.MyProjectName.MongoDB.Tests
+│  │          │  └─MongoDB
+│  │          │      └─Samples
+│  │          └─MyCompanyName.MyProjectName.TestBase
+│  │              ├─Samples
+│  │              └─Security
+│  └─wpf
+│      └─src
+│          └─MyCompanyName.MyProjectName
+├─test
+│  ├─AbpPerfTest
+│  │  ├─AbpPerfTest.WithAbp
+│  │  │  ├─Controllers
+│  │  │  ├─Dtos
+│  │  │  ├─Entities
+│  │  │  ├─EntityFramework
+│  │  │  ├─Migrations
+│  │  │  └─Properties
+│  │  ├─AbpPerfTest.WithoutAbp
+│  │  │  ├─Controllers
+│  │  │  ├─Dtos
+│  │  │  ├─Entities
+│  │  │  ├─EntityFramework
+│  │  │  ├─Migrations
+│  │  │  └─Properties
+│  │  ├─_jmeter
+│  │  └─_results
+│  └─DistEvents
+│      ├─DistDemoApp.EfCoreRabbitMq
+│      │  └─Migrations
+│      ├─DistDemoApp.MongoDbKafka
+│      ├─DistDemoApp.MongoDbRebus
+│      └─DistDemoApp.Shared
+└─tools
+    ├─github-changelog-generator
+    │  └─src
+    │      └─GithubChangelogGenerator
+    │          ├─cmd
+    │          ├─config
+    │          ├─internal
+    │          └─pkg
+    └─nuget
